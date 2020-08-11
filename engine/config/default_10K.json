@@ -27,15 +27,9 @@
   },
   "hours": 10000,
   "interventions": [
-    {
-      "Lockdown": {
-        "at_number_of_infections": 100,
-        "essential_workers_population": 0.1
-      }
-    }
   ],
   "starting_infections": {
-    "exposed": 1,
+    "exposed": 100,
     "infected_mild_asymptomatic": 0,
     "infected_mild_symptomatic": 0,
     "infected_severe": 0

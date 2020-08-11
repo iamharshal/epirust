@@ -31,3 +31,8 @@ uuid = { version = "0.8", features = ["serde", "v4"] }
 
 [profile.release]
 opt-level = 3
+lto = true
+codegen-units = 1
+#debug = true
+rustflags = '-C target-cpu=native -C target-feature=+sse -C target-feature=+sse2 -C target-feature=+sse3 -C target-feature=+sse4.1 -C target-feature=+sse4.2'
+

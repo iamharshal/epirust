@@ -37,6 +37,8 @@ function setup() {
 	RUSTFLAGS='-C target-cpu=native -C target-feature=+sse -C target-feature=+sse2 -C target-feature=+sse3 -C target-feature=+sse4.1 -C target-feature=+sse4.2'
 
 	EPIRUST_FLAGS="RUSTFLAGS=\"${RUSTFLAGS}\" RUST_LOG=\"${RUST_LOG}\""
+
+  build
 }
 
 function launch() {
@@ -48,6 +50,7 @@ function profile() {
 }
 
 function build() {
+   echo "Building EpiRust..."
 	 RUSTFLAGS="${RUSTFLAGS}" RUST_LOG="${RUST_LOG}" cargo build --release
 }
 
