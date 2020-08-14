@@ -1,0 +1,789 @@
+warning: unused manifest key: profile.release.rustflags
+   Compiling epirust v0.1.0 (/home/harshal/workspaces/epirust/engine)
+    Finished release [optimized] target(s) in 51.63s
+     Running `target/release/epirust -c config/default_10K.json`
+[2020-08-14T11:06:32Z INFO  epirust::geography::grid] Hospital capacity 50: 
+[2020-08-14T11:06:32Z INFO  epirust::epidemiology_simulation] Initialization completed in 0.011084887 seconds
+[2020-08-14T11:06:32Z INFO  epirust::listeners::events::counts] S: 9900, E:100, I: 0, H: 0, R: 0, D: 0
+[2020-08-14T11:06:32Z INFO  epirust::epidemiology_simulation] Throughput: 567.6979 iterations/sec; simulation hour 100 of 10000
+[2020-08-14T11:06:32Z INFO  epirust::listeners::events::counts] S: 9900, E:0, I: 100, H: 0, R: 0, D: 0
+[2020-08-14T11:06:33Z INFO  epirust::epidemiology_simulation] Throughput: 564.39465 iterations/sec; simulation hour 200 of 10000
+[2020-08-14T11:06:33Z INFO  epirust::listeners::events::counts] S: 9791, E:100, I: 95, H: 14, R: 0, D: 0
+[2020-08-14T11:06:33Z INFO  epirust::epidemiology_simulation] Throughput: 554.7089 iterations/sec; simulation hour 300 of 10000
+[2020-08-14T11:06:33Z INFO  epirust::listeners::events::counts] S: 9327, E:176, I: 446, H: 20, R: 31, D: 0
+[2020-08-14T11:06:33Z INFO  epirust::epidemiology_simulation] Throughput: 553.48676 iterations/sec; simulation hour 400 of 10000
+[2020-08-14T11:06:33Z INFO  epirust::listeners::events::counts] S: 8932, E:304, I: 628, H: 56, R: 80, D: 0
+[2020-08-14T11:06:33Z INFO  epirust::epidemiology_simulation] Throughput: 557.2285 iterations/sec; simulation hour 500 of 10000
+[2020-08-14T11:06:33Z INFO  epirust::listeners::events::counts] S: 8128, E:335, I: 1272, H: 132, R: 133, D: 0
+[2020-08-14T11:06:33Z INFO  epirust::epidemiology_simulation] Throughput: 564.40704 iterations/sec; simulation hour 600 of 10000
+[2020-08-14T11:06:33Z INFO  epirust::listeners::events::counts] S: 7477, E:372, I: 1371, H: 290, R: 490, D: 0
+[2020-08-14T11:06:33Z INFO  epirust::epidemiology_simulation] Throughput: 573.05963 iterations/sec; simulation hour 700 of 10000
+[2020-08-14T11:06:33Z INFO  epirust::listeners::events::counts] S: 6430, E:549, I: 1826, H: 407, R: 788, D: 0
+[2020-08-14T11:06:34Z INFO  epirust::epidemiology_simulation] Throughput: 581.65076 iterations/sec; simulation hour 800 of 10000
+[2020-08-14T11:06:34Z INFO  epirust::listeners::events::counts] S: 5355, E:507, I: 2209, H: 554, R: 1375, D: 0
+[2020-08-14T11:06:34Z INFO  epirust::epidemiology_simulation] Throughput: 588.99176 iterations/sec; simulation hour 900 of 10000
+[2020-08-14T11:06:34Z INFO  epirust::listeners::events::counts] S: 3923, E:655, I: 2743, H: 759, R: 1920, D: 0
+[2020-08-14T11:06:34Z INFO  epirust::epidemiology_simulation] Throughput: 599.1588 iterations/sec; simulation hour 1000 of 10000
+[2020-08-14T11:06:34Z INFO  epirust::listeners::events::counts] S: 2783, E:494, I: 3032, H: 923, R: 2765, D: 3
+[2020-08-14T11:06:34Z INFO  epirust::epidemiology_simulation] Throughput: 611.6644 iterations/sec; simulation hour 1100 of 10000
+[2020-08-14T11:06:34Z INFO  epirust::listeners::events::counts] S: 1885, E:366, I: 2976, H: 1082, R: 3683, D: 8
+[2020-08-14T11:06:34Z INFO  epirust::epidemiology_simulation] Throughput: 625.0558 iterations/sec; simulation hour 1200 of 10000
+[2020-08-14T11:06:34Z INFO  epirust::listeners::events::counts] S: 1230, E:302, I: 2212, H: 1175, R: 5067, D: 14
+[2020-08-14T11:06:34Z INFO  epirust::epidemiology_simulation] Throughput: 638.12665 iterations/sec; simulation hour 1300 of 10000
+[2020-08-14T11:06:34Z INFO  epirust::listeners::events::counts] S: 809, E:185, I: 1709, H: 1191, R: 6086, D: 20
+[2020-08-14T11:06:34Z INFO  epirust::epidemiology_simulation] Throughput: 649.2471 iterations/sec; simulation hour 1400 of 10000
+[2020-08-14T11:06:34Z INFO  epirust::listeners::events::counts] S: 554, E:101, I: 1162, H: 1097, R: 7060, D: 26
+[2020-08-14T11:06:34Z INFO  epirust::epidemiology_simulation] Throughput: 657.0635 iterations/sec; simulation hour 1500 of 10000
+[2020-08-14T11:06:34Z INFO  epirust::listeners::events::counts] S: 385, E:63, I: 790, H: 932, R: 7797, D: 33
+[2020-08-14T11:06:35Z INFO  epirust::epidemiology_simulation] Throughput: 663.6722 iterations/sec; simulation hour 1600 of 10000
+[2020-08-14T11:06:35Z INFO  epirust::listeners::events::counts] S: 291, E:28, I: 487, H: 724, R: 8433, D: 37
+[2020-08-14T11:06:35Z INFO  epirust::epidemiology_simulation] Throughput: 669.53644 iterations/sec; simulation hour 1700 of 10000
+[2020-08-14T11:06:35Z INFO  epirust::listeners::events::counts] S: 249, E:19, I: 291, H: 519, R: 8881, D: 41
+[2020-08-14T11:06:35Z INFO  epirust::epidemiology_simulation] Throughput: 674.9205 iterations/sec; simulation hour 1800 of 10000
+[2020-08-14T11:06:35Z INFO  epirust::listeners::events::counts] S: 229, E:9, I: 140, H: 322, R: 9251, D: 49
+[2020-08-14T11:06:35Z INFO  epirust::epidemiology_simulation] Throughput: 680.0116 iterations/sec; simulation hour 1900 of 10000
+[2020-08-14T11:06:35Z INFO  epirust::listeners::events::counts] S: 221, E:3, I: 57, H: 202, R: 9466, D: 51
+[2020-08-14T11:06:35Z INFO  epirust::epidemiology_simulation] Throughput: 684.0254 iterations/sec; simulation hour 2000 of 10000
+[2020-08-14T11:06:35Z INFO  epirust::listeners::events::counts] S: 221, E:0, I: 25, H: 121, R: 9578, D: 55
+[2020-08-14T11:06:35Z INFO  epirust::epidemiology_simulation] Throughput: 686.1444 iterations/sec; simulation hour 2100 of 10000
+[2020-08-14T11:06:35Z INFO  epirust::listeners::events::counts] S: 219, E:1, I: 14, H: 73, R: 9635, D: 58
+[2020-08-14T11:06:35Z INFO  epirust::epidemiology_simulation] Throughput: 688.31506 iterations/sec; simulation hour 2200 of 10000
+[2020-08-14T11:06:35Z INFO  epirust::listeners::events::counts] S: 219, E:0, I: 4, H: 39, R: 9677, D: 61
+[2020-08-14T11:06:36Z INFO  epirust::epidemiology_simulation] Throughput: 690.1836 iterations/sec; simulation hour 2300 of 10000
+[2020-08-14T11:06:36Z INFO  epirust::listeners::events::counts] S: 219, E:0, I: 1, H: 22, R: 9697, D: 61
+[2020-08-14T11:06:36Z INFO  epirust::epidemiology_simulation] Throughput: 692.8199 iterations/sec; simulation hour 2400 of 10000
+[2020-08-14T11:06:36Z INFO  epirust::listeners::events::counts] S: 219, E:0, I: 0, H: 3, R: 9716, D: 62
+[2020-08-14T11:06:36Z INFO  epirust::epidemiology_simulation] Number of iterations: 2471, Total Time taken 3.5596783 seconds
+[2020-08-14T11:06:36Z INFO  epirust::epidemiology_simulation] Iterations/sec: 694.1638
+[2020-08-14T11:06:36Z INFO  epirust] Done
+warning: unused manifest key: profile.release.rustflags
+    Finished release [optimized] target(s) in 0.07s
+     Running `target/release/epirust -c config/default_10K.json`
+[2020-08-14T11:06:36Z INFO  epirust::geography::grid] Hospital capacity 50: 
+[2020-08-14T11:06:36Z INFO  epirust::epidemiology_simulation] Initialization completed in 0.010094334 seconds
+[2020-08-14T11:06:36Z INFO  epirust::listeners::events::counts] S: 9900, E:100, I: 0, H: 0, R: 0, D: 0
+[2020-08-14T11:06:36Z INFO  epirust::epidemiology_simulation] Throughput: 568.19006 iterations/sec; simulation hour 100 of 10000
+[2020-08-14T11:06:36Z INFO  epirust::listeners::events::counts] S: 9900, E:0, I: 100, H: 0, R: 0, D: 0
+[2020-08-14T11:06:36Z INFO  epirust::epidemiology_simulation] Throughput: 564.92584 iterations/sec; simulation hour 200 of 10000
+[2020-08-14T11:06:36Z INFO  epirust::listeners::events::counts] S: 9839, E:58, I: 87, H: 16, R: 0, D: 0
+[2020-08-14T11:06:36Z INFO  epirust::epidemiology_simulation] Throughput: 554.8948 iterations/sec; simulation hour 300 of 10000
+[2020-08-14T11:06:36Z INFO  epirust::listeners::events::counts] S: 9436, E:173, I: 340, H: 24, R: 27, D: 0
+[2020-08-14T11:06:37Z INFO  epirust::epidemiology_simulation] Throughput: 553.2181 iterations/sec; simulation hour 400 of 10000
+[2020-08-14T11:06:37Z INFO  epirust::listeners::events::counts] S: 9112, E:249, I: 510, H: 51, R: 78, D: 0
+[2020-08-14T11:06:37Z INFO  epirust::epidemiology_simulation] Throughput: 556.1163 iterations/sec; simulation hour 500 of 10000
+[2020-08-14T11:06:37Z INFO  epirust::listeners::events::counts] S: 8370, E:348, I: 1041, H: 123, R: 118, D: 0
+[2020-08-14T11:06:37Z INFO  epirust::epidemiology_simulation] Throughput: 562.5493 iterations/sec; simulation hour 600 of 10000
+[2020-08-14T11:06:37Z INFO  epirust::listeners::events::counts] S: 7812, E:322, I: 1263, H: 219, R: 384, D: 0
+[2020-08-14T11:06:37Z INFO  epirust::epidemiology_simulation] Throughput: 570.55884 iterations/sec; simulation hour 700 of 10000
+[2020-08-14T11:06:37Z INFO  epirust::listeners::events::counts] S: 6789, E:571, I: 1691, H: 306, R: 642, D: 1
+[2020-08-14T11:06:37Z INFO  epirust::epidemiology_simulation] Throughput: 578.1155 iterations/sec; simulation hour 800 of 10000
+[2020-08-14T11:06:37Z INFO  epirust::listeners::events::counts] S: 5805, E:491, I: 2042, H: 464, R: 1197, D: 1
+[2020-08-14T11:06:37Z INFO  epirust::epidemiology_simulation] Throughput: 584.1805 iterations/sec; simulation hour 900 of 10000
+[2020-08-14T11:06:37Z INFO  epirust::listeners::events::counts] S: 4217, E:741, I: 2674, H: 641, R: 1726, D: 1
+[2020-08-14T11:06:38Z INFO  epirust::epidemiology_simulation] Throughput: 593.4541 iterations/sec; simulation hour 1000 of 10000
+[2020-08-14T11:06:38Z INFO  epirust::listeners::events::counts] S: 2970, E:575, I: 3179, H: 803, R: 2467, D: 6
+[2020-08-14T11:06:38Z INFO  epirust::epidemiology_simulation] Throughput: 606.0674 iterations/sec; simulation hour 1100 of 10000
+[2020-08-14T11:06:38Z INFO  epirust::listeners::events::counts] S: 1861, E:476, I: 3269, H: 1043, R: 3344, D: 7
+[2020-08-14T11:06:38Z INFO  epirust::epidemiology_simulation] Throughput: 620.1131 iterations/sec; simulation hour 1200 of 10000
+[2020-08-14T11:06:38Z INFO  epirust::listeners::events::counts] S: 1178, E:347, I: 2521, H: 1214, R: 4730, D: 10
+[2020-08-14T11:06:38Z INFO  epirust::epidemiology_simulation] Throughput: 633.95874 iterations/sec; simulation hour 1300 of 10000
+[2020-08-14T11:06:38Z INFO  epirust::listeners::events::counts] S: 741, E:189, I: 1936, H: 1268, R: 5848, D: 18
+[2020-08-14T11:06:38Z INFO  epirust::epidemiology_simulation] Throughput: 645.7993 iterations/sec; simulation hour 1400 of 10000
+[2020-08-14T11:06:38Z INFO  epirust::listeners::events::counts] S: 473, E:108, I: 1294, H: 1170, R: 6925, D: 30
+[2020-08-14T11:06:38Z INFO  epirust::epidemiology_simulation] Throughput: 654.1771 iterations/sec; simulation hour 1500 of 10000
+[2020-08-14T11:06:38Z INFO  epirust::listeners::events::counts] S: 378, E:23, I: 799, H: 1041, R: 7722, D: 37
+[2020-08-14T11:06:38Z INFO  epirust::epidemiology_simulation] Throughput: 661.04236 iterations/sec; simulation hour 1600 of 10000
+[2020-08-14T11:06:38Z INFO  epirust::listeners::events::counts] S: 318, E:31, I: 386, H: 775, R: 8446, D: 44
+[2020-08-14T11:06:38Z INFO  epirust::epidemiology_simulation] Throughput: 666.85846 iterations/sec; simulation hour 1700 of 10000
+[2020-08-14T11:06:38Z INFO  epirust::listeners::events::counts] S: 296, E:2, I: 199, H: 533, R: 8917, D: 53
+[2020-08-14T11:06:39Z INFO  epirust::epidemiology_simulation] Throughput: 672.1962 iterations/sec; simulation hour 1800 of 10000
+[2020-08-14T11:06:39Z INFO  epirust::listeners::events::counts] S: 285, E:7, I: 71, H: 293, R: 9282, D: 62
+[2020-08-14T11:06:39Z INFO  epirust::epidemiology_simulation] Throughput: 677.265 iterations/sec; simulation hour 1900 of 10000
+[2020-08-14T11:06:39Z INFO  epirust::listeners::events::counts] S: 281, E:0, I: 44, H: 182, R: 9427, D: 66
+[2020-08-14T11:06:39Z INFO  epirust::epidemiology_simulation] Throughput: 681.2523 iterations/sec; simulation hour 2000 of 10000
+[2020-08-14T11:06:39Z INFO  epirust::listeners::events::counts] S: 269, E:8, I: 19, H: 88, R: 9546, D: 70
+[2020-08-14T11:06:39Z INFO  epirust::epidemiology_simulation] Throughput: 683.3939 iterations/sec; simulation hour 2100 of 10000
+[2020-08-14T11:06:39Z INFO  epirust::listeners::events::counts] S: 251, E:3, I: 29, H: 33, R: 9610, D: 74
+[2020-08-14T11:06:39Z INFO  epirust::epidemiology_simulation] Throughput: 685.65857 iterations/sec; simulation hour 2200 of 10000
+[2020-08-14T11:06:39Z INFO  epirust::listeners::events::counts] S: 247, E:2, I: 29, H: 18, R: 9630, D: 74
+[2020-08-14T11:06:39Z INFO  epirust::epidemiology_simulation] Throughput: 688.15485 iterations/sec; simulation hour 2300 of 10000
+[2020-08-14T11:06:39Z INFO  epirust::listeners::events::counts] S: 246, E:0, I: 25, H: 6, R: 9649, D: 74
+[2020-08-14T11:06:39Z INFO  epirust::epidemiology_simulation] Throughput: 690.933 iterations/sec; simulation hour 2400 of 10000
+[2020-08-14T11:06:39Z INFO  epirust::listeners::events::counts] S: 246, E:0, I: 5, H: 5, R: 9670, D: 74
+[2020-08-14T11:06:39Z INFO  epirust::epidemiology_simulation] Throughput: 693.9412 iterations/sec; simulation hour 2500 of 10000
+[2020-08-14T11:06:39Z INFO  epirust::listeners::events::counts] S: 246, E:0, I: 2, H: 5, R: 9673, D: 74
+[2020-08-14T11:06:40Z INFO  epirust::epidemiology_simulation] Throughput: 696.3762 iterations/sec; simulation hour 2600 of 10000
+[2020-08-14T11:06:40Z INFO  epirust::listeners::events::counts] S: 246, E:0, I: 0, H: 5, R: 9675, D: 74
+[2020-08-14T11:06:40Z INFO  epirust::epidemiology_simulation] Throughput: 697.50116 iterations/sec; simulation hour 2700 of 10000
+[2020-08-14T11:06:40Z INFO  epirust::listeners::events::counts] S: 246, E:0, I: 0, H: 3, R: 9677, D: 74
+[2020-08-14T11:06:40Z INFO  epirust::epidemiology_simulation] Throughput: 698.7879 iterations/sec; simulation hour 2800 of 10000
+[2020-08-14T11:06:40Z INFO  epirust::listeners::events::counts] S: 246, E:0, I: 0, H: 1, R: 9679, D: 74
+[2020-08-14T11:06:40Z INFO  epirust::epidemiology_simulation] Number of iterations: 2855, Total Time taken 4.0800505 seconds
+[2020-08-14T11:06:40Z INFO  epirust::epidemiology_simulation] Iterations/sec: 699.7462
+[2020-08-14T11:06:40Z INFO  epirust] Done
+warning: unused manifest key: profile.release.rustflags
+    Finished release [optimized] target(s) in 0.07s
+     Running `target/release/epirust -c config/default_10K.json`
+[2020-08-14T11:06:40Z INFO  epirust::geography::grid] Hospital capacity 50: 
+[2020-08-14T11:06:40Z INFO  epirust::epidemiology_simulation] Initialization completed in 0.011002059 seconds
+[2020-08-14T11:06:40Z INFO  epirust::listeners::events::counts] S: 9900, E:100, I: 0, H: 0, R: 0, D: 0
+[2020-08-14T11:06:40Z INFO  epirust::epidemiology_simulation] Throughput: 567.9561 iterations/sec; simulation hour 100 of 10000
+[2020-08-14T11:06:40Z INFO  epirust::listeners::events::counts] S: 9900, E:0, I: 100, H: 0, R: 0, D: 0
+[2020-08-14T11:06:40Z INFO  epirust::epidemiology_simulation] Throughput: 564.7759 iterations/sec; simulation hour 200 of 10000
+[2020-08-14T11:06:40Z INFO  epirust::listeners::events::counts] S: 9762, E:129, I: 100, H: 9, R: 0, D: 0
+[2020-08-14T11:06:41Z INFO  epirust::epidemiology_simulation] Throughput: 552.30707 iterations/sec; simulation hour 300 of 10000
+[2020-08-14T11:06:41Z INFO  epirust::listeners::events::counts] S: 9335, E:165, I: 452, H: 19, R: 29, D: 0
+[2020-08-14T11:06:41Z INFO  epirust::epidemiology_simulation] Throughput: 552.0062 iterations/sec; simulation hour 400 of 10000
+[2020-08-14T11:06:41Z INFO  epirust::listeners::events::counts] S: 8926, E:272, I: 645, H: 73, R: 84, D: 0
+[2020-08-14T11:06:41Z INFO  epirust::epidemiology_simulation] Throughput: 556.0961 iterations/sec; simulation hour 500 of 10000
+[2020-08-14T11:06:41Z INFO  epirust::listeners::events::counts] S: 8168, E:335, I: 1207, H: 142, R: 148, D: 0
+[2020-08-14T11:06:41Z INFO  epirust::epidemiology_simulation] Throughput: 563.3279 iterations/sec; simulation hour 600 of 10000
+[2020-08-14T11:06:41Z INFO  epirust::listeners::events::counts] S: 7477, E:365, I: 1386, H: 280, R: 492, D: 0
+[2020-08-14T11:06:41Z INFO  epirust::epidemiology_simulation] Throughput: 572.2412 iterations/sec; simulation hour 700 of 10000
+[2020-08-14T11:06:41Z INFO  epirust::listeners::events::counts] S: 6407, E:491, I: 1889, H: 410, R: 803, D: 0
+[2020-08-14T11:06:41Z INFO  epirust::epidemiology_simulation] Throughput: 580.9735 iterations/sec; simulation hour 800 of 10000
+[2020-08-14T11:06:41Z INFO  epirust::listeners::events::counts] S: 5320, E:574, I: 2165, H: 583, R: 1358, D: 0
+[2020-08-14T11:06:42Z INFO  epirust::epidemiology_simulation] Throughput: 588.6615 iterations/sec; simulation hour 900 of 10000
+[2020-08-14T11:06:42Z INFO  epirust::listeners::events::counts] S: 3835, E:630, I: 2809, H: 759, R: 1963, D: 4
+[2020-08-14T11:06:42Z INFO  epirust::epidemiology_simulation] Throughput: 599.20245 iterations/sec; simulation hour 1000 of 10000
+[2020-08-14T11:06:42Z INFO  epirust::listeners::events::counts] S: 2694, E:564, I: 3025, H: 932, R: 2778, D: 7
+[2020-08-14T11:06:42Z INFO  epirust::epidemiology_simulation] Throughput: 611.9299 iterations/sec; simulation hour 1100 of 10000
+[2020-08-14T11:06:42Z INFO  epirust::listeners::events::counts] S: 1741, E:363, I: 3084, H: 1117, R: 3684, D: 11
+[2020-08-14T11:06:42Z INFO  epirust::epidemiology_simulation] Throughput: 625.7054 iterations/sec; simulation hour 1200 of 10000
+[2020-08-14T11:06:42Z INFO  epirust::listeners::events::counts] S: 1052, E:334, I: 2283, H: 1206, R: 5107, D: 18
+[2020-08-14T11:06:42Z INFO  epirust::epidemiology_simulation] Throughput: 639.2663 iterations/sec; simulation hour 1300 of 10000
+[2020-08-14T11:06:42Z INFO  epirust::listeners::events::counts] S: 560, E:204, I: 1844, H: 1230, R: 6140, D: 22
+[2020-08-14T11:06:42Z INFO  epirust::epidemiology_simulation] Throughput: 651.0176 iterations/sec; simulation hour 1400 of 10000
+[2020-08-14T11:06:42Z INFO  epirust::listeners::events::counts] S: 361, E:73, I: 1252, H: 1128, R: 7156, D: 30
+[2020-08-14T11:06:42Z INFO  epirust::epidemiology_simulation] Throughput: 659.3109 iterations/sec; simulation hour 1500 of 10000
+[2020-08-14T11:06:42Z INFO  epirust::listeners::events::counts] S: 226, E:47, I: 782, H: 989, R: 7914, D: 42
+[2020-08-14T11:06:42Z INFO  epirust::epidemiology_simulation] Throughput: 666.1616 iterations/sec; simulation hour 1600 of 10000
+[2020-08-14T11:06:42Z INFO  epirust::listeners::events::counts] S: 167, E:17, I: 400, H: 748, R: 8620, D: 48
+[2020-08-14T11:06:43Z INFO  epirust::epidemiology_simulation] Throughput: 672.0664 iterations/sec; simulation hour 1700 of 10000
+[2020-08-14T11:06:43Z INFO  epirust::listeners::events::counts] S: 143, E:15, I: 198, H: 545, R: 9042, D: 57
+[2020-08-14T11:06:43Z INFO  epirust::epidemiology_simulation] Throughput: 677.4715 iterations/sec; simulation hour 1800 of 10000
+[2020-08-14T11:06:43Z INFO  epirust::listeners::events::counts] S: 89, E:23, I: 108, H: 315, R: 9398, D: 67
+[2020-08-14T11:06:43Z INFO  epirust::epidemiology_simulation] Throughput: 682.6682 iterations/sec; simulation hour 1900 of 10000
+[2020-08-14T11:06:43Z INFO  epirust::listeners::events::counts] S: 83, E:3, I: 79, H: 166, R: 9598, D: 71
+[2020-08-14T11:06:43Z INFO  epirust::epidemiology_simulation] Throughput: 686.7978 iterations/sec; simulation hour 2000 of 10000
+[2020-08-14T11:06:43Z INFO  epirust::listeners::events::counts] S: 80, E:2, I: 50, H: 93, R: 9702, D: 73
+[2020-08-14T11:06:43Z INFO  epirust::epidemiology_simulation] Throughput: 689.0529 iterations/sec; simulation hour 2100 of 10000
+[2020-08-14T11:06:43Z INFO  epirust::listeners::events::counts] S: 79, E:0, I: 19, H: 59, R: 9770, D: 73
+[2020-08-14T11:06:43Z INFO  epirust::epidemiology_simulation] Throughput: 691.35516 iterations/sec; simulation hour 2200 of 10000
+[2020-08-14T11:06:43Z INFO  epirust::listeners::events::counts] S: 79, E:0, I: 5, H: 33, R: 9810, D: 73
+[2020-08-14T11:06:43Z INFO  epirust::epidemiology_simulation] Throughput: 693.8725 iterations/sec; simulation hour 2300 of 10000
+[2020-08-14T11:06:43Z INFO  epirust::listeners::events::counts] S: 79, E:0, I: 3, H: 20, R: 9823, D: 75
+[2020-08-14T11:06:44Z INFO  epirust::epidemiology_simulation] Throughput: 696.6791 iterations/sec; simulation hour 2400 of 10000
+[2020-08-14T11:06:44Z INFO  epirust::listeners::events::counts] S: 79, E:0, I: 0, H: 14, R: 9832, D: 75
+[2020-08-14T11:06:44Z INFO  epirust::epidemiology_simulation] Throughput: 699.70026 iterations/sec; simulation hour 2500 of 10000
+[2020-08-14T11:06:44Z INFO  epirust::listeners::events::counts] S: 79, E:0, I: 0, H: 1, R: 9845, D: 75
+[2020-08-14T11:06:44Z INFO  epirust::epidemiology_simulation] Number of iterations: 2543, Total Time taken 3.634646 seconds
+[2020-08-14T11:06:44Z INFO  epirust::epidemiology_simulation] Iterations/sec: 699.6555
+[2020-08-14T11:06:44Z INFO  epirust] Done
+warning: unused manifest key: profile.release.rustflags
+    Finished release [optimized] target(s) in 0.07s
+     Running `target/release/epirust -c config/default_10K.json`
+[2020-08-14T11:06:44Z INFO  epirust::geography::grid] Hospital capacity 50: 
+[2020-08-14T11:06:44Z INFO  epirust::epidemiology_simulation] Initialization completed in 0.009450592 seconds
+[2020-08-14T11:06:44Z INFO  epirust::listeners::events::counts] S: 9900, E:100, I: 0, H: 0, R: 0, D: 0
+[2020-08-14T11:06:44Z INFO  epirust::epidemiology_simulation] Throughput: 565.70593 iterations/sec; simulation hour 100 of 10000
+[2020-08-14T11:06:44Z INFO  epirust::listeners::events::counts] S: 9900, E:0, I: 100, H: 0, R: 0, D: 0
+[2020-08-14T11:06:44Z INFO  epirust::epidemiology_simulation] Throughput: 563.8339 iterations/sec; simulation hour 200 of 10000
+[2020-08-14T11:06:44Z INFO  epirust::listeners::events::counts] S: 9779, E:114, I: 96, H: 11, R: 0, D: 0
+[2020-08-14T11:06:44Z INFO  epirust::epidemiology_simulation] Throughput: 554.4483 iterations/sec; simulation hour 300 of 10000
+[2020-08-14T11:06:44Z INFO  epirust::listeners::events::counts] S: 9360, E:190, I: 400, H: 20, R: 30, D: 0
+[2020-08-14T11:06:45Z INFO  epirust::epidemiology_simulation] Throughput: 553.2797 iterations/sec; simulation hour 400 of 10000
+[2020-08-14T11:06:45Z INFO  epirust::listeners::events::counts] S: 9015, E:246, I: 595, H: 62, R: 82, D: 0
+[2020-08-14T11:06:45Z INFO  epirust::epidemiology_simulation] Throughput: 556.67535 iterations/sec; simulation hour 500 of 10000
+[2020-08-14T11:06:45Z INFO  epirust::listeners::events::counts] S: 8265, E:352, I: 1109, H: 136, R: 138, D: 0
+[2020-08-14T11:06:45Z INFO  epirust::epidemiology_simulation] Throughput: 563.1312 iterations/sec; simulation hour 600 of 10000
+[2020-08-14T11:06:45Z INFO  epirust::listeners::events::counts] S: 7709, E:302, I: 1279, H: 251, R: 459, D: 0
+[2020-08-14T11:06:45Z INFO  epirust::epidemiology_simulation] Throughput: 571.1956 iterations/sec; simulation hour 700 of 10000
+[2020-08-14T11:06:45Z INFO  epirust::listeners::events::counts] S: 6722, E:533, I: 1629, H: 352, R: 764, D: 0
+[2020-08-14T11:06:45Z INFO  epirust::epidemiology_simulation] Throughput: 578.87573 iterations/sec; simulation hour 800 of 10000
+[2020-08-14T11:06:45Z INFO  epirust::listeners::events::counts] S: 5720, E:481, I: 2029, H: 501, R: 1269, D: 0
+[2020-08-14T11:06:45Z INFO  epirust::epidemiology_simulation] Throughput: 585.2517 iterations/sec; simulation hour 900 of 10000
+[2020-08-14T11:06:45Z INFO  epirust::listeners::events::counts] S: 4280, E:682, I: 2563, H: 669, R: 1806, D: 0
+[2020-08-14T11:06:45Z INFO  epirust::epidemiology_simulation] Throughput: 594.69135 iterations/sec; simulation hour 1000 of 10000
+[2020-08-14T11:06:45Z INFO  epirust::listeners::events::counts] S: 3058, E:552, I: 3012, H: 820, R: 2554, D: 4
+[2020-08-14T11:06:46Z INFO  epirust::epidemiology_simulation] Throughput: 605.82855 iterations/sec; simulation hour 1100 of 10000
+[2020-08-14T11:06:46Z INFO  epirust::listeners::events::counts] S: 2032, E:471, I: 3068, H: 1011, R: 3411, D: 7
+[2020-08-14T11:06:46Z INFO  epirust::epidemiology_simulation] Throughput: 619.14417 iterations/sec; simulation hour 1200 of 10000
+[2020-08-14T11:06:46Z INFO  epirust::listeners::events::counts] S: 1253, E:302, I: 2501, H: 1167, R: 4766, D: 11
+[2020-08-14T11:06:46Z INFO  epirust::epidemiology_simulation] Throughput: 632.7047 iterations/sec; simulation hour 1300 of 10000
+[2020-08-14T11:06:46Z INFO  epirust::listeners::events::counts] S: 716, E:255, I: 1963, H: 1223, R: 5829, D: 14
+[2020-08-14T11:06:46Z INFO  epirust::epidemiology_simulation] Throughput: 644.7217 iterations/sec; simulation hour 1400 of 10000
+[2020-08-14T11:06:46Z INFO  epirust::listeners::events::counts] S: 470, E:94, I: 1420, H: 1184, R: 6806, D: 26
+[2020-08-14T11:06:46Z INFO  epirust::epidemiology_simulation] Throughput: 653.4846 iterations/sec; simulation hour 1500 of 10000
+[2020-08-14T11:06:46Z INFO  epirust::listeners::events::counts] S: 299, E:58, I: 890, H: 1028, R: 7692, D: 33
+[2020-08-14T11:06:46Z INFO  epirust::epidemiology_simulation] Throughput: 660.7993 iterations/sec; simulation hour 1600 of 10000
+[2020-08-14T11:06:46Z INFO  epirust::listeners::events::counts] S: 197, E:58, I: 499, H: 808, R: 8395, D: 43
+[2020-08-14T11:06:46Z INFO  epirust::epidemiology_simulation] Throughput: 667.0844 iterations/sec; simulation hour 1700 of 10000
+[2020-08-14T11:06:46Z INFO  epirust::listeners::events::counts] S: 140, E:18, I: 302, H: 581, R: 8906, D: 53
+[2020-08-14T11:06:46Z INFO  epirust::epidemiology_simulation] Throughput: 672.8746 iterations/sec; simulation hour 1800 of 10000
+[2020-08-14T11:06:46Z INFO  epirust::listeners::events::counts] S: 125, E:8, I: 140, H: 347, R: 9317, D: 63
+[2020-08-14T11:06:47Z INFO  epirust::epidemiology_simulation] Throughput: 678.30316 iterations/sec; simulation hour 1900 of 10000
+[2020-08-14T11:06:47Z INFO  epirust::listeners::events::counts] S: 84, E:26, I: 98, H: 209, R: 9516, D: 67
+[2020-08-14T11:06:47Z INFO  epirust::epidemiology_simulation] Throughput: 682.68585 iterations/sec; simulation hour 2000 of 10000
+[2020-08-14T11:06:47Z INFO  epirust::listeners::events::counts] S: 73, E:2, I: 68, H: 118, R: 9669, D: 70
+[2020-08-14T11:06:47Z INFO  epirust::epidemiology_simulation] Throughput: 685.12805 iterations/sec; simulation hour 2100 of 10000
+[2020-08-14T11:06:47Z INFO  epirust::listeners::events::counts] S: 71, E:0, I: 52, H: 79, R: 9728, D: 70
+[2020-08-14T11:06:47Z INFO  epirust::epidemiology_simulation] Throughput: 687.65704 iterations/sec; simulation hour 2200 of 10000
+[2020-08-14T11:06:47Z INFO  epirust::listeners::events::counts] S: 70, E:0, I: 18, H: 44, R: 9795, D: 73
+[2020-08-14T11:06:47Z INFO  epirust::epidemiology_simulation] Throughput: 690.3549 iterations/sec; simulation hour 2300 of 10000
+[2020-08-14T11:06:47Z INFO  epirust::listeners::events::counts] S: 70, E:0, I: 5, H: 21, R: 9830, D: 74
+[2020-08-14T11:06:47Z INFO  epirust::epidemiology_simulation] Throughput: 693.3004 iterations/sec; simulation hour 2400 of 10000
+[2020-08-14T11:06:47Z INFO  epirust::listeners::events::counts] S: 70, E:0, I: 0, H: 10, R: 9846, D: 74
+[2020-08-14T11:06:47Z INFO  epirust::epidemiology_simulation] Throughput: 696.4563 iterations/sec; simulation hour 2500 of 10000
+[2020-08-14T11:06:47Z INFO  epirust::listeners::events::counts] S: 70, E:0, I: 0, H: 6, R: 9850, D: 74
+[2020-08-14T11:06:48Z INFO  epirust::epidemiology_simulation] Number of iterations: 2591, Total Time taken 3.7143927 seconds
+[2020-08-14T11:06:48Z INFO  epirust::epidemiology_simulation] Iterations/sec: 697.5568
+[2020-08-14T11:06:48Z INFO  epirust] Done
+warning: unused manifest key: profile.release.rustflags
+    Finished release [optimized] target(s) in 0.07s
+     Running `target/release/epirust -c config/default_10K.json`
+[2020-08-14T11:06:48Z INFO  epirust::geography::grid] Hospital capacity 50: 
+[2020-08-14T11:06:48Z INFO  epirust::epidemiology_simulation] Initialization completed in 0.011278129 seconds
+[2020-08-14T11:06:48Z INFO  epirust::listeners::events::counts] S: 9900, E:100, I: 0, H: 0, R: 0, D: 0
+[2020-08-14T11:06:48Z INFO  epirust::epidemiology_simulation] Throughput: 567.05646 iterations/sec; simulation hour 100 of 10000
+[2020-08-14T11:06:48Z INFO  epirust::listeners::events::counts] S: 9900, E:0, I: 100, H: 0, R: 0, D: 0
+[2020-08-14T11:06:48Z INFO  epirust::epidemiology_simulation] Throughput: 564.1614 iterations/sec; simulation hour 200 of 10000
+[2020-08-14T11:06:48Z INFO  epirust::listeners::events::counts] S: 9782, E:115, I: 88, H: 15, R: 0, D: 0
+[2020-08-14T11:06:48Z INFO  epirust::epidemiology_simulation] Throughput: 554.6764 iterations/sec; simulation hour 300 of 10000
+[2020-08-14T11:06:48Z INFO  epirust::listeners::events::counts] S: 9302, E:181, I: 460, H: 23, R: 34, D: 0
+[2020-08-14T11:06:48Z INFO  epirust::epidemiology_simulation] Throughput: 553.83673 iterations/sec; simulation hour 400 of 10000
+[2020-08-14T11:06:48Z INFO  epirust::listeners::events::counts] S: 8795, E:366, I: 694, H: 68, R: 77, D: 0
+[2020-08-14T11:06:49Z INFO  epirust::epidemiology_simulation] Throughput: 558.10443 iterations/sec; simulation hour 500 of 10000
+[2020-08-14T11:06:49Z INFO  epirust::listeners::events::counts] S: 7761, E:467, I: 1507, H: 130, R: 135, D: 0
+[2020-08-14T11:06:49Z INFO  epirust::epidemiology_simulation] Throughput: 566.369 iterations/sec; simulation hour 600 of 10000
+[2020-08-14T11:06:49Z INFO  epirust::listeners::events::counts] S: 7020, E:425, I: 1717, H: 310, R: 528, D: 0
+[2020-08-14T11:06:49Z INFO  epirust::epidemiology_simulation] Throughput: 576.381 iterations/sec; simulation hour 700 of 10000
+[2020-08-14T11:06:49Z INFO  epirust::listeners::events::counts] S: 5866, E:592, I: 2164, H: 472, R: 905, D: 1
+[2020-08-14T11:06:49Z INFO  epirust::epidemiology_simulation] Throughput: 586.27435 iterations/sec; simulation hour 800 of 10000
+[2020-08-14T11:06:49Z INFO  epirust::listeners::events::counts] S: 4787, E:511, I: 2451, H: 638, R: 1612, D: 1
+[2020-08-14T11:06:49Z INFO  epirust::epidemiology_simulation] Throughput: 594.9529 iterations/sec; simulation hour 900 of 10000
+[2020-08-14T11:06:49Z INFO  epirust::listeners::events::counts] S: 3325, E:630, I: 2920, H: 830, R: 2293, D: 2
+[2020-08-14T11:06:49Z INFO  epirust::epidemiology_simulation] Throughput: 606.32227 iterations/sec; simulation hour 1000 of 10000
+[2020-08-14T11:06:49Z INFO  epirust::listeners::events::counts] S: 2385, E:388, I: 2993, H: 1009, R: 3221, D: 4
+[2020-08-14T11:06:49Z INFO  epirust::epidemiology_simulation] Throughput: 619.1517 iterations/sec; simulation hour 1100 of 10000
+[2020-08-14T11:06:49Z INFO  epirust::listeners::events::counts] S: 1603, E:394, I: 2628, H: 1168, R: 4197, D: 10
+[2020-08-14T11:06:50Z INFO  epirust::epidemiology_simulation] Throughput: 632.01025 iterations/sec; simulation hour 1200 of 10000
+[2020-08-14T11:06:50Z INFO  epirust::listeners::events::counts] S: 1128, E:197, I: 1898, H: 1141, R: 5617, D: 19
+[2020-08-14T11:06:50Z INFO  epirust::epidemiology_simulation] Throughput: 644.0967 iterations/sec; simulation hour 1300 of 10000
+[2020-08-14T11:06:50Z INFO  epirust::listeners::events::counts] S: 748, E:165, I: 1370, H: 1148, R: 6547, D: 22
+[2020-08-14T11:06:50Z INFO  epirust::epidemiology_simulation] Throughput: 654.27295 iterations/sec; simulation hour 1400 of 10000
+[2020-08-14T11:06:50Z INFO  epirust::listeners::events::counts] S: 472, E:127, I: 1020, H: 1011, R: 7340, D: 30
+[2020-08-14T11:06:50Z INFO  epirust::epidemiology_simulation] Throughput: 661.4899 iterations/sec; simulation hour 1500 of 10000
+[2020-08-14T11:06:50Z INFO  epirust::listeners::events::counts] S: 293, E:61, I: 751, H: 826, R: 8023, D: 46
+[2020-08-14T11:06:50Z INFO  epirust::epidemiology_simulation] Throughput: 667.7356 iterations/sec; simulation hour 1600 of 10000
+[2020-08-14T11:06:50Z INFO  epirust::listeners::events::counts] S: 238, E:17, I: 485, H: 611, R: 8594, D: 55
+[2020-08-14T11:06:50Z INFO  epirust::epidemiology_simulation] Throughput: 673.3122 iterations/sec; simulation hour 1700 of 10000
+[2020-08-14T11:06:50Z INFO  epirust::listeners::events::counts] S: 162, E:33, I: 275, H: 450, R: 9020, D: 60
+[2020-08-14T11:06:50Z INFO  epirust::epidemiology_simulation] Throughput: 678.54834 iterations/sec; simulation hour 1800 of 10000
+[2020-08-14T11:06:50Z INFO  epirust::listeners::events::counts] S: 143, E:1, I: 144, H: 261, R: 9390, D: 61
+[2020-08-14T11:06:50Z INFO  epirust::epidemiology_simulation] Throughput: 682.6065 iterations/sec; simulation hour 1900 of 10000
+[2020-08-14T11:06:50Z INFO  epirust::listeners::events::counts] S: 140, E:2, I: 77, H: 190, R: 9526, D: 65
+[2020-08-14T11:06:51Z INFO  epirust::epidemiology_simulation] Throughput: 686.10626 iterations/sec; simulation hour 2000 of 10000
+[2020-08-14T11:06:51Z INFO  epirust::listeners::events::counts] S: 138, E:0, I: 27, H: 118, R: 9650, D: 67
+[2020-08-14T11:06:51Z INFO  epirust::epidemiology_simulation] Throughput: 688.29443 iterations/sec; simulation hour 2100 of 10000
+[2020-08-14T11:06:51Z INFO  epirust::listeners::events::counts] S: 136, E:2, I: 4, H: 56, R: 9732, D: 70
+[2020-08-14T11:06:51Z INFO  epirust::epidemiology_simulation] Throughput: 690.504 iterations/sec; simulation hour 2200 of 10000
+[2020-08-14T11:06:51Z INFO  epirust::listeners::events::counts] S: 136, E:0, I: 4, H: 27, R: 9760, D: 73
+[2020-08-14T11:06:51Z INFO  epirust::epidemiology_simulation] Throughput: 692.96136 iterations/sec; simulation hour 2300 of 10000
+[2020-08-14T11:06:51Z INFO  epirust::listeners::events::counts] S: 136, E:0, I: 2, H: 22, R: 9767, D: 73
+[2020-08-14T11:06:51Z INFO  epirust::epidemiology_simulation] Throughput: 695.6965 iterations/sec; simulation hour 2400 of 10000
+[2020-08-14T11:06:51Z INFO  epirust::listeners::events::counts] S: 135, E:0, I: 1, H: 4, R: 9787, D: 73
+[2020-08-14T11:06:51Z INFO  epirust::epidemiology_simulation] Throughput: 698.65936 iterations/sec; simulation hour 2500 of 10000
+[2020-08-14T11:06:51Z INFO  epirust::listeners::events::counts] S: 135, E:0, I: 1, H: 2, R: 9789, D: 73
+[2020-08-14T11:06:51Z INFO  epirust::epidemiology_simulation] Throughput: 701.0686 iterations/sec; simulation hour 2600 of 10000
+[2020-08-14T11:06:51Z INFO  epirust::listeners::events::counts] S: 135, E:0, I: 0, H: 1, R: 9791, D: 73
+[2020-08-14T11:06:51Z INFO  epirust::epidemiology_simulation] Throughput: 702.1401 iterations/sec; simulation hour 2700 of 10000
+[2020-08-14T11:06:51Z INFO  epirust::listeners::events::counts] S: 135, E:0, I: 0, H: 1, R: 9791, D: 73
+[2020-08-14T11:06:52Z INFO  epirust::epidemiology_simulation] Throughput: 703.40564 iterations/sec; simulation hour 2800 of 10000
+[2020-08-14T11:06:52Z INFO  epirust::listeners::events::counts] S: 135, E:0, I: 0, H: 1, R: 9791, D: 73
+[2020-08-14T11:06:52Z INFO  epirust::epidemiology_simulation] Throughput: 704.9683 iterations/sec; simulation hour 2900 of 10000
+[2020-08-14T11:06:52Z INFO  epirust::listeners::events::counts] S: 135, E:0, I: 0, H: 1, R: 9791, D: 73
+[2020-08-14T11:06:52Z INFO  epirust::epidemiology_simulation] Throughput: 706.7816 iterations/sec; simulation hour 3000 of 10000
+[2020-08-14T11:06:52Z INFO  epirust::listeners::events::counts] S: 135, E:0, I: 0, H: 1, R: 9791, D: 73
+[2020-08-14T11:06:52Z INFO  epirust::epidemiology_simulation] Number of iterations: 3023, Total Time taken 4.276027 seconds
+[2020-08-14T11:06:52Z INFO  epirust::epidemiology_simulation] Iterations/sec: 706.96466
+[2020-08-14T11:06:52Z INFO  epirust] Done
+warning: unused manifest key: profile.release.rustflags
+    Finished release [optimized] target(s) in 0.07s
+     Running `target/release/epirust -c config/default_10K.json`
+[2020-08-14T11:06:52Z INFO  epirust::geography::grid] Hospital capacity 50: 
+[2020-08-14T11:06:52Z INFO  epirust::epidemiology_simulation] Initialization completed in 0.009904351 seconds
+[2020-08-14T11:06:52Z INFO  epirust::listeners::events::counts] S: 9900, E:100, I: 0, H: 0, R: 0, D: 0
+[2020-08-14T11:06:52Z INFO  epirust::epidemiology_simulation] Throughput: 567.5011 iterations/sec; simulation hour 100 of 10000
+[2020-08-14T11:06:52Z INFO  epirust::listeners::events::counts] S: 9900, E:0, I: 100, H: 0, R: 0, D: 0
+[2020-08-14T11:06:52Z INFO  epirust::epidemiology_simulation] Throughput: 564.0864 iterations/sec; simulation hour 200 of 10000
+[2020-08-14T11:06:52Z INFO  epirust::listeners::events::counts] S: 9739, E:149, I: 92, H: 20, R: 0, D: 0
+[2020-08-14T11:06:53Z INFO  epirust::epidemiology_simulation] Throughput: 554.5192 iterations/sec; simulation hour 300 of 10000
+[2020-08-14T11:06:53Z INFO  epirust::listeners::events::counts] S: 9345, E:137, I: 452, H: 35, R: 31, D: 0
+[2020-08-14T11:06:53Z INFO  epirust::epidemiology_simulation] Throughput: 553.66266 iterations/sec; simulation hour 400 of 10000
+[2020-08-14T11:06:53Z INFO  epirust::listeners::events::counts] S: 8916, E:282, I: 643, H: 88, R: 71, D: 0
+[2020-08-14T11:06:53Z INFO  epirust::epidemiology_simulation] Throughput: 557.4962 iterations/sec; simulation hour 500 of 10000
+[2020-08-14T11:06:53Z INFO  epirust::listeners::events::counts] S: 8030, E:350, I: 1340, H: 156, R: 124, D: 0
+[2020-08-14T11:06:53Z INFO  epirust::epidemiology_simulation] Throughput: 565.0755 iterations/sec; simulation hour 600 of 10000
+[2020-08-14T11:06:53Z INFO  epirust::listeners::events::counts] S: 7378, E:386, I: 1479, H: 292, R: 465, D: 0
+[2020-08-14T11:06:53Z INFO  epirust::epidemiology_simulation] Throughput: 574.20325 iterations/sec; simulation hour 700 of 10000
+[2020-08-14T11:06:53Z INFO  epirust::listeners::events::counts] S: 6310, E:523, I: 1937, H: 401, R: 828, D: 1
+[2020-08-14T11:06:53Z INFO  epirust::epidemiology_simulation] Throughput: 582.89105 iterations/sec; simulation hour 800 of 10000
+[2020-08-14T11:06:53Z INFO  epirust::listeners::events::counts] S: 5412, E:443, I: 2105, H: 584, R: 1455, D: 1
+[2020-08-14T11:06:54Z INFO  epirust::epidemiology_simulation] Throughput: 589.77954 iterations/sec; simulation hour 900 of 10000
+[2020-08-14T11:06:54Z INFO  epirust::listeners::events::counts] S: 4105, E:549, I: 2579, H: 713, R: 2050, D: 4
+[2020-08-14T11:06:54Z INFO  epirust::epidemiology_simulation] Throughput: 598.9062 iterations/sec; simulation hour 1000 of 10000
+[2020-08-14T11:06:54Z INFO  epirust::listeners::events::counts] S: 3000, E:567, I: 2707, H: 855, R: 2864, D: 7
+[2020-08-14T11:06:54Z INFO  epirust::epidemiology_simulation] Throughput: 610.0057 iterations/sec; simulation hour 1100 of 10000
+[2020-08-14T11:06:54Z INFO  epirust::listeners::events::counts] S: 1955, E:471, I: 2841, H: 1014, R: 3711, D: 8
+[2020-08-14T11:06:54Z INFO  epirust::epidemiology_simulation] Throughput: 622.6074 iterations/sec; simulation hour 1200 of 10000
+[2020-08-14T11:06:54Z INFO  epirust::listeners::events::counts] S: 1245, E:305, I: 2353, H: 1103, R: 4979, D: 15
+[2020-08-14T11:06:54Z INFO  epirust::epidemiology_simulation] Throughput: 635.60486 iterations/sec; simulation hour 1300 of 10000
+[2020-08-14T11:06:54Z INFO  epirust::listeners::events::counts] S: 774, E:206, I: 1916, H: 1136, R: 5946, D: 22
+[2020-08-14T11:06:54Z INFO  epirust::epidemiology_simulation] Throughput: 646.8639 iterations/sec; simulation hour 1400 of 10000
+[2020-08-14T11:06:54Z INFO  epirust::listeners::events::counts] S: 517, E:120, I: 1330, H: 1016, R: 6988, D: 29
+[2020-08-14T11:06:54Z INFO  epirust::epidemiology_simulation] Throughput: 654.85803 iterations/sec; simulation hour 1500 of 10000
+[2020-08-14T11:06:54Z INFO  epirust::listeners::events::counts] S: 334, E:63, I: 860, H: 923, R: 7784, D: 36
+[2020-08-14T11:06:54Z INFO  epirust::epidemiology_simulation] Throughput: 661.6009 iterations/sec; simulation hour 1600 of 10000
+[2020-08-14T11:06:54Z INFO  epirust::listeners::events::counts] S: 258, E:18, I: 519, H: 732, R: 8426, D: 47
+[2020-08-14T11:06:55Z INFO  epirust::epidemiology_simulation] Throughput: 667.58167 iterations/sec; simulation hour 1700 of 10000
+[2020-08-14T11:06:55Z INFO  epirust::listeners::events::counts] S: 219, E:17, I: 290, H: 551, R: 8869, D: 54
+[2020-08-14T11:06:55Z INFO  epirust::epidemiology_simulation] Throughput: 673.0551 iterations/sec; simulation hour 1800 of 10000
+[2020-08-14T11:06:55Z INFO  epirust::listeners::events::counts] S: 193, E:6, I: 127, H: 284, R: 9321, D: 69
+[2020-08-14T11:06:55Z INFO  epirust::epidemiology_simulation] Throughput: 678.205 iterations/sec; simulation hour 1900 of 10000
+[2020-08-14T11:06:55Z INFO  epirust::listeners::events::counts] S: 175, E:6, I: 69, H: 194, R: 9481, D: 75
+[2020-08-14T11:06:55Z INFO  epirust::epidemiology_simulation] Throughput: 682.38 iterations/sec; simulation hour 2000 of 10000
+[2020-08-14T11:06:55Z INFO  epirust::listeners::events::counts] S: 141, E:16, I: 59, H: 117, R: 9588, D: 79
+[2020-08-14T11:06:55Z INFO  epirust::epidemiology_simulation] Throughput: 684.71436 iterations/sec; simulation hour 2100 of 10000
+[2020-08-14T11:06:55Z INFO  epirust::listeners::events::counts] S: 139, E:0, I: 49, H: 60, R: 9673, D: 79
+[2020-08-14T11:06:55Z INFO  epirust::epidemiology_simulation] Throughput: 687.0958 iterations/sec; simulation hour 2200 of 10000
+[2020-08-14T11:06:55Z INFO  epirust::listeners::events::counts] S: 137, E:1, I: 26, H: 38, R: 9717, D: 81
+[2020-08-14T11:06:55Z INFO  epirust::epidemiology_simulation] Throughput: 689.6761 iterations/sec; simulation hour 2300 of 10000
+[2020-08-14T11:06:55Z INFO  epirust::listeners::events::counts] S: 137, E:0, I: 10, H: 30, R: 9742, D: 81
+[2020-08-14T11:06:55Z INFO  epirust::epidemiology_simulation] Throughput: 692.53296 iterations/sec; simulation hour 2400 of 10000
+[2020-08-14T11:06:55Z INFO  epirust::listeners::events::counts] S: 137, E:0, I: 2, H: 17, R: 9762, D: 82
+[2020-08-14T11:06:56Z INFO  epirust::epidemiology_simulation] Throughput: 695.0963 iterations/sec; simulation hour 2500 of 10000
+[2020-08-14T11:06:56Z INFO  epirust::listeners::events::counts] S: 137, E:0, I: 0, H: 11, R: 9770, D: 82
+[2020-08-14T11:06:56Z INFO  epirust::epidemiology_simulation] Throughput: 697.6034 iterations/sec; simulation hour 2600 of 10000
+[2020-08-14T11:06:56Z INFO  epirust::listeners::events::counts] S: 137, E:0, I: 0, H: 6, R: 9774, D: 83
+[2020-08-14T11:06:56Z INFO  epirust::epidemiology_simulation] Number of iterations: 2663, Total Time taken 3.8178754 seconds
+[2020-08-14T11:06:56Z INFO  epirust::epidemiology_simulation] Iterations/sec: 697.50836
+[2020-08-14T11:06:56Z INFO  epirust] Done
+warning: unused manifest key: profile.release.rustflags
+    Finished release [optimized] target(s) in 0.07s
+     Running `target/release/epirust -c config/default_10K.json`
+[2020-08-14T11:06:56Z INFO  epirust::geography::grid] Hospital capacity 50: 
+[2020-08-14T11:06:56Z INFO  epirust::epidemiology_simulation] Initialization completed in 0.010787411 seconds
+[2020-08-14T11:06:56Z INFO  epirust::listeners::events::counts] S: 9900, E:100, I: 0, H: 0, R: 0, D: 0
+[2020-08-14T11:06:56Z INFO  epirust::epidemiology_simulation] Throughput: 566.063 iterations/sec; simulation hour 100 of 10000
+[2020-08-14T11:06:56Z INFO  epirust::listeners::events::counts] S: 9900, E:0, I: 100, H: 0, R: 0, D: 0
+[2020-08-14T11:06:56Z INFO  epirust::epidemiology_simulation] Throughput: 562.9313 iterations/sec; simulation hour 200 of 10000
+[2020-08-14T11:06:56Z INFO  epirust::listeners::events::counts] S: 9751, E:141, I: 97, H: 11, R: 0, D: 0
+[2020-08-14T11:06:56Z INFO  epirust::epidemiology_simulation] Throughput: 553.4047 iterations/sec; simulation hour 300 of 10000
+[2020-08-14T11:06:56Z INFO  epirust::listeners::events::counts] S: 9163, E:227, I: 550, H: 24, R: 36, D: 0
+[2020-08-14T11:06:57Z INFO  epirust::epidemiology_simulation] Throughput: 553.2484 iterations/sec; simulation hour 400 of 10000
+[2020-08-14T11:06:57Z INFO  epirust::listeners::events::counts] S: 8569, E:429, I: 843, H: 81, R: 78, D: 0
+[2020-08-14T11:06:57Z INFO  epirust::epidemiology_simulation] Throughput: 558.4437 iterations/sec; simulation hour 500 of 10000
+[2020-08-14T11:06:57Z INFO  epirust::listeners::events::counts] S: 7488, E:475, I: 1711, H: 177, R: 149, D: 0
+[2020-08-14T11:06:57Z INFO  epirust::epidemiology_simulation] Throughput: 568.06726 iterations/sec; simulation hour 600 of 10000
+[2020-08-14T11:06:57Z INFO  epirust::listeners::events::counts] S: 6743, E:365, I: 1914, H: 379, R: 599, D: 0
+[2020-08-14T11:06:57Z INFO  epirust::epidemiology_simulation] Throughput: 579.2683 iterations/sec; simulation hour 700 of 10000
+[2020-08-14T11:06:57Z INFO  epirust::listeners::events::counts] S: 5717, E:504, I: 2180, H: 564, R: 1035, D: 0
+[2020-08-14T11:06:57Z INFO  epirust::epidemiology_simulation] Throughput: 589.7937 iterations/sec; simulation hour 800 of 10000
+[2020-08-14T11:06:57Z INFO  epirust::listeners::events::counts] S: 4652, E:499, I: 2318, H: 722, R: 1809, D: 0
+[2020-08-14T11:06:57Z INFO  epirust::epidemiology_simulation] Throughput: 598.41974 iterations/sec; simulation hour 900 of 10000
+[2020-08-14T11:06:57Z INFO  epirust::listeners::events::counts] S: 3291, E:627, I: 2683, H: 871, R: 2527, D: 1
+[2020-08-14T11:06:58Z INFO  epirust::epidemiology_simulation] Throughput: 609.5877 iterations/sec; simulation hour 1000 of 10000
+[2020-08-14T11:06:58Z INFO  epirust::listeners::events::counts] S: 2145, E:482, I: 3004, H: 983, R: 3379, D: 7
+[2020-08-14T11:06:58Z INFO  epirust::epidemiology_simulation] Throughput: 622.9087 iterations/sec; simulation hour 1100 of 10000
+[2020-08-14T11:06:58Z INFO  epirust::listeners::events::counts] S: 1281, E:403, I: 2876, H: 1105, R: 4321, D: 14
+[2020-08-14T11:06:58Z INFO  epirust::epidemiology_simulation] Throughput: 636.5555 iterations/sec; simulation hour 1200 of 10000
+[2020-08-14T11:06:58Z INFO  epirust::listeners::events::counts] S: 741, E:225, I: 2117, H: 1125, R: 5767, D: 25
+[2020-08-14T11:06:58Z INFO  epirust::epidemiology_simulation] Throughput: 649.6843 iterations/sec; simulation hour 1300 of 10000
+[2020-08-14T11:06:58Z INFO  epirust::listeners::events::counts] S: 357, E:162, I: 1546, H: 1114, R: 6790, D: 31
+[2020-08-14T11:06:58Z INFO  epirust::epidemiology_simulation] Throughput: 660.56274 iterations/sec; simulation hour 1400 of 10000
+[2020-08-14T11:06:58Z INFO  epirust::listeners::events::counts] S: 168, E:81, I: 1069, H: 1004, R: 7643, D: 35
+[2020-08-14T11:06:58Z INFO  epirust::epidemiology_simulation] Throughput: 668.076 iterations/sec; simulation hour 1500 of 10000
+[2020-08-14T11:06:58Z INFO  epirust::listeners::events::counts] S: 51, E:44, I: 626, H: 855, R: 8379, D: 45
+[2020-08-14T11:06:58Z INFO  epirust::epidemiology_simulation] Throughput: 674.3429 iterations/sec; simulation hour 1600 of 10000
+[2020-08-14T11:06:58Z INFO  epirust::listeners::events::counts] S: 33, E:3, I: 333, H: 647, R: 8930, D: 54
+[2020-08-14T11:06:58Z INFO  epirust::epidemiology_simulation] Throughput: 679.7412 iterations/sec; simulation hour 1700 of 10000
+[2020-08-14T11:06:58Z INFO  epirust::listeners::events::counts] S: 28, E:3, I: 150, H: 422, R: 9337, D: 60
+[2020-08-14T11:06:59Z INFO  epirust::epidemiology_simulation] Throughput: 684.6758 iterations/sec; simulation hour 1800 of 10000
+[2020-08-14T11:06:59Z INFO  epirust::listeners::events::counts] S: 28, E:0, I: 27, H: 217, R: 9658, D: 70
+[2020-08-14T11:06:59Z INFO  epirust::epidemiology_simulation] Throughput: 689.41284 iterations/sec; simulation hour 1900 of 10000
+[2020-08-14T11:06:59Z INFO  epirust::listeners::events::counts] S: 27, E:0, I: 4, H: 125, R: 9766, D: 78
+[2020-08-14T11:06:59Z INFO  epirust::epidemiology_simulation] Throughput: 692.9942 iterations/sec; simulation hour 2000 of 10000
+[2020-08-14T11:06:59Z INFO  epirust::listeners::events::counts] S: 27, E:0, I: 3, H: 55, R: 9836, D: 79
+[2020-08-14T11:06:59Z INFO  epirust::epidemiology_simulation] Throughput: 694.88214 iterations/sec; simulation hour 2100 of 10000
+[2020-08-14T11:06:59Z INFO  epirust::listeners::events::counts] S: 27, E:0, I: 1, H: 19, R: 9872, D: 81
+[2020-08-14T11:06:59Z INFO  epirust::epidemiology_simulation] Throughput: 696.8725 iterations/sec; simulation hour 2200 of 10000
+[2020-08-14T11:06:59Z INFO  epirust::listeners::events::counts] S: 27, E:0, I: 0, H: 3, R: 9889, D: 81
+[2020-08-14T11:06:59Z INFO  epirust::epidemiology_simulation] Throughput: 699.14026 iterations/sec; simulation hour 2300 of 10000
+[2020-08-14T11:06:59Z INFO  epirust::listeners::events::counts] S: 27, E:0, I: 0, H: 1, R: 9891, D: 81
+[2020-08-14T11:06:59Z INFO  epirust::epidemiology_simulation] Number of iterations: 2327, Total Time taken 3.324632 seconds
+[2020-08-14T11:06:59Z INFO  epirust::epidemiology_simulation] Iterations/sec: 699.9271
+[2020-08-14T11:06:59Z INFO  epirust] Done
+warning: unused manifest key: profile.release.rustflags
+    Finished release [optimized] target(s) in 0.07s
+     Running `target/release/epirust -c config/default_10K.json`
+[2020-08-14T11:06:59Z INFO  epirust::geography::grid] Hospital capacity 50: 
+[2020-08-14T11:06:59Z INFO  epirust::epidemiology_simulation] Initialization completed in 0.011310642 seconds
+[2020-08-14T11:06:59Z INFO  epirust::listeners::events::counts] S: 9900, E:100, I: 0, H: 0, R: 0, D: 0
+[2020-08-14T11:07:00Z INFO  epirust::epidemiology_simulation] Throughput: 566.894 iterations/sec; simulation hour 100 of 10000
+[2020-08-14T11:07:00Z INFO  epirust::listeners::events::counts] S: 9900, E:0, I: 100, H: 0, R: 0, D: 0
+[2020-08-14T11:07:00Z INFO  epirust::epidemiology_simulation] Throughput: 563.71216 iterations/sec; simulation hour 200 of 10000
+[2020-08-14T11:07:00Z INFO  epirust::listeners::events::counts] S: 9796, E:101, I: 86, H: 17, R: 0, D: 0
+[2020-08-14T11:07:00Z INFO  epirust::epidemiology_simulation] Throughput: 553.874 iterations/sec; simulation hour 300 of 10000
+[2020-08-14T11:07:00Z INFO  epirust::listeners::events::counts] S: 9380, E:178, I: 395, H: 19, R: 28, D: 0
+[2020-08-14T11:07:00Z INFO  epirust::epidemiology_simulation] Throughput: 552.68524 iterations/sec; simulation hour 400 of 10000
+[2020-08-14T11:07:00Z INFO  epirust::listeners::events::counts] S: 9025, E:254, I: 578, H: 62, R: 81, D: 0
+[2020-08-14T11:07:00Z INFO  epirust::epidemiology_simulation] Throughput: 555.9892 iterations/sec; simulation hour 500 of 10000
+[2020-08-14T11:07:00Z INFO  epirust::listeners::events::counts] S: 8325, E:343, I: 1049, H: 149, R: 134, D: 0
+[2020-08-14T11:07:00Z INFO  epirust::epidemiology_simulation] Throughput: 562.4778 iterations/sec; simulation hour 600 of 10000
+[2020-08-14T11:07:00Z INFO  epirust::listeners::events::counts] S: 7761, E:290, I: 1255, H: 262, R: 432, D: 0
+[2020-08-14T11:07:01Z INFO  epirust::epidemiology_simulation] Throughput: 569.4259 iterations/sec; simulation hour 700 of 10000
+[2020-08-14T11:07:01Z INFO  epirust::listeners::events::counts] S: 6814, E:538, I: 1558, H: 391, R: 699, D: 0
+[2020-08-14T11:07:01Z INFO  epirust::epidemiology_simulation] Throughput: 577.139 iterations/sec; simulation hour 800 of 10000
+[2020-08-14T11:07:01Z INFO  epirust::listeners::events::counts] S: 5821, E:488, I: 2001, H: 514, R: 1176, D: 0
+[2020-08-14T11:07:01Z INFO  epirust::epidemiology_simulation] Throughput: 583.44604 iterations/sec; simulation hour 900 of 10000
+[2020-08-14T11:07:01Z INFO  epirust::listeners::events::counts] S: 4541, E:595, I: 2488, H: 655, R: 1719, D: 2
+[2020-08-14T11:07:01Z INFO  epirust::epidemiology_simulation] Throughput: 592.4369 iterations/sec; simulation hour 1000 of 10000
+[2020-08-14T11:07:01Z INFO  epirust::listeners::events::counts] S: 3328, E:530, I: 2902, H: 797, R: 2437, D: 6
+[2020-08-14T11:07:01Z INFO  epirust::epidemiology_simulation] Throughput: 603.712 iterations/sec; simulation hour 1100 of 10000
+[2020-08-14T11:07:01Z INFO  epirust::listeners::events::counts] S: 2231, E:514, I: 2976, H: 954, R: 3317, D: 8
+[2020-08-14T11:07:01Z INFO  epirust::epidemiology_simulation] Throughput: 616.3513 iterations/sec; simulation hour 1200 of 10000
+[2020-08-14T11:07:01Z INFO  epirust::listeners::events::counts] S: 1531, E:282, I: 2517, H: 1073, R: 4582, D: 15
+[2020-08-14T11:07:01Z INFO  epirust::epidemiology_simulation] Throughput: 629.3444 iterations/sec; simulation hour 1300 of 10000
+[2020-08-14T11:07:01Z INFO  epirust::listeners::events::counts] S: 1006, E:256, I: 1978, H: 1139, R: 5603, D: 18
+[2020-08-14T11:07:02Z INFO  epirust::epidemiology_simulation] Throughput: 640.62427 iterations/sec; simulation hour 1400 of 10000
+[2020-08-14T11:07:02Z INFO  epirust::listeners::events::counts] S: 701, E:108, I: 1432, H: 1064, R: 6669, D: 26
+[2020-08-14T11:07:02Z INFO  epirust::epidemiology_simulation] Throughput: 648.7605 iterations/sec; simulation hour 1500 of 10000
+[2020-08-14T11:07:02Z INFO  epirust::listeners::events::counts] S: 517, E:79, I: 924, H: 919, R: 7526, D: 35
+[2020-08-14T11:07:02Z INFO  epirust::epidemiology_simulation] Throughput: 655.69476 iterations/sec; simulation hour 1600 of 10000
+[2020-08-14T11:07:02Z INFO  epirust::listeners::events::counts] S: 359, E:40, I: 653, H: 722, R: 8184, D: 42
+[2020-08-14T11:07:02Z INFO  epirust::epidemiology_simulation] Throughput: 661.8829 iterations/sec; simulation hour 1700 of 10000
+[2020-08-14T11:07:02Z INFO  epirust::listeners::events::counts] S: 298, E:31, I: 374, H: 523, R: 8725, D: 49
+[2020-08-14T11:07:02Z INFO  epirust::epidemiology_simulation] Throughput: 667.597 iterations/sec; simulation hour 1800 of 10000
+[2020-08-14T11:07:02Z INFO  epirust::listeners::events::counts] S: 229, E:15, I: 246, H: 303, R: 9154, D: 53
+[2020-08-14T11:07:02Z INFO  epirust::epidemiology_simulation] Throughput: 673.09375 iterations/sec; simulation hour 1900 of 10000
+[2020-08-14T11:07:02Z INFO  epirust::listeners::events::counts] S: 221, E:4, I: 129, H: 207, R: 9382, D: 57
+[2020-08-14T11:07:02Z INFO  epirust::epidemiology_simulation] Throughput: 677.49677 iterations/sec; simulation hour 2000 of 10000
+[2020-08-14T11:07:02Z INFO  epirust::listeners::events::counts] S: 218, E:0, I: 75, H: 132, R: 9515, D: 60
+[2020-08-14T11:07:02Z INFO  epirust::epidemiology_simulation] Throughput: 679.98016 iterations/sec; simulation hour 2100 of 10000
+[2020-08-14T11:07:02Z INFO  epirust::listeners::events::counts] S: 216, E:0, I: 20, H: 84, R: 9618, D: 62
+[2020-08-14T11:07:03Z INFO  epirust::epidemiology_simulation] Throughput: 682.462 iterations/sec; simulation hour 2200 of 10000
+[2020-08-14T11:07:03Z INFO  epirust::listeners::events::counts] S: 216, E:0, I: 4, H: 54, R: 9662, D: 64
+[2020-08-14T11:07:03Z INFO  epirust::epidemiology_simulation] Throughput: 685.1207 iterations/sec; simulation hour 2300 of 10000
+[2020-08-14T11:07:03Z INFO  epirust::listeners::events::counts] S: 216, E:0, I: 1, H: 27, R: 9691, D: 65
+[2020-08-14T11:07:03Z INFO  epirust::epidemiology_simulation] Throughput: 688.0159 iterations/sec; simulation hour 2400 of 10000
+[2020-08-14T11:07:03Z INFO  epirust::listeners::events::counts] S: 216, E:0, I: 0, H: 10, R: 9708, D: 66
+[2020-08-14T11:07:03Z INFO  epirust::epidemiology_simulation] Throughput: 691.1321 iterations/sec; simulation hour 2500 of 10000
+[2020-08-14T11:07:03Z INFO  epirust::listeners::events::counts] S: 216, E:0, I: 0, H: 1, R: 9716, D: 67
+[2020-08-14T11:07:03Z INFO  epirust::epidemiology_simulation] Number of iterations: 2591, Total Time taken 3.7430775 seconds
+[2020-08-14T11:07:03Z INFO  epirust::epidemiology_simulation] Iterations/sec: 692.2112
+[2020-08-14T11:07:03Z INFO  epirust] Done
+warning: unused manifest key: profile.release.rustflags
+    Finished release [optimized] target(s) in 0.07s
+     Running `target/release/epirust -c config/default_10K.json`
+[2020-08-14T11:07:03Z INFO  epirust::geography::grid] Hospital capacity 50: 
+[2020-08-14T11:07:03Z INFO  epirust::epidemiology_simulation] Initialization completed in 0.010760119 seconds
+[2020-08-14T11:07:03Z INFO  epirust::listeners::events::counts] S: 9900, E:100, I: 0, H: 0, R: 0, D: 0
+[2020-08-14T11:07:03Z INFO  epirust::epidemiology_simulation] Throughput: 568.1177 iterations/sec; simulation hour 100 of 10000
+[2020-08-14T11:07:03Z INFO  epirust::listeners::events::counts] S: 9900, E:0, I: 100, H: 0, R: 0, D: 0
+[2020-08-14T11:07:04Z INFO  epirust::epidemiology_simulation] Throughput: 564.99 iterations/sec; simulation hour 200 of 10000
+[2020-08-14T11:07:04Z INFO  epirust::listeners::events::counts] S: 9830, E:63, I: 94, H: 13, R: 0, D: 0
+[2020-08-14T11:07:04Z INFO  epirust::epidemiology_simulation] Throughput: 555.0048 iterations/sec; simulation hour 300 of 10000
+[2020-08-14T11:07:04Z INFO  epirust::listeners::events::counts] S: 9362, E:157, I: 428, H: 25, R: 28, D: 0
+[2020-08-14T11:07:04Z INFO  epirust::epidemiology_simulation] Throughput: 553.8258 iterations/sec; simulation hour 400 of 10000
+[2020-08-14T11:07:04Z INFO  epirust::listeners::events::counts] S: 8969, E:310, I: 571, H: 74, R: 76, D: 0
+[2020-08-14T11:07:04Z INFO  epirust::epidemiology_simulation] Throughput: 557.4328 iterations/sec; simulation hour 500 of 10000
+[2020-08-14T11:07:04Z INFO  epirust::listeners::events::counts] S: 8146, E:369, I: 1228, H: 139, R: 118, D: 0
+[2020-08-14T11:07:04Z INFO  epirust::epidemiology_simulation] Throughput: 564.62604 iterations/sec; simulation hour 600 of 10000
+[2020-08-14T11:07:04Z INFO  epirust::listeners::events::counts] S: 7462, E:347, I: 1472, H: 265, R: 454, D: 0
+[2020-08-14T11:07:04Z INFO  epirust::epidemiology_simulation] Throughput: 573.6426 iterations/sec; simulation hour 700 of 10000
+[2020-08-14T11:07:04Z INFO  epirust::listeners::events::counts] S: 6361, E:573, I: 1901, H: 406, R: 759, D: 0
+[2020-08-14T11:07:05Z INFO  epirust::epidemiology_simulation] Throughput: 582.5665 iterations/sec; simulation hour 800 of 10000
+[2020-08-14T11:07:05Z INFO  epirust::listeners::events::counts] S: 5287, E:489, I: 2294, H: 577, R: 1353, D: 0
+[2020-08-14T11:07:05Z INFO  epirust::epidemiology_simulation] Throughput: 590.1134 iterations/sec; simulation hour 900 of 10000
+[2020-08-14T11:07:05Z INFO  epirust::listeners::events::counts] S: 3876, E:678, I: 2691, H: 777, R: 1975, D: 3
+[2020-08-14T11:07:05Z INFO  epirust::epidemiology_simulation] Throughput: 600.32135 iterations/sec; simulation hour 1000 of 10000
+[2020-08-14T11:07:05Z INFO  epirust::listeners::events::counts] S: 2651, E:521, I: 3082, H: 925, R: 2817, D: 4
+[2020-08-14T11:07:05Z INFO  epirust::epidemiology_simulation] Throughput: 613.1777 iterations/sec; simulation hour 1100 of 10000
+[2020-08-14T11:07:05Z INFO  epirust::listeners::events::counts] S: 1636, E:512, I: 3024, H: 1096, R: 3724, D: 8
+[2020-08-14T11:07:05Z INFO  epirust::epidemiology_simulation] Throughput: 627.231 iterations/sec; simulation hour 1200 of 10000
+[2020-08-14T11:07:05Z INFO  epirust::listeners::events::counts] S: 955, E:300, I: 2463, H: 1180, R: 5082, D: 20
+[2020-08-14T11:07:05Z INFO  epirust::epidemiology_simulation] Throughput: 641.158 iterations/sec; simulation hour 1300 of 10000
+[2020-08-14T11:07:05Z INFO  epirust::listeners::events::counts] S: 478, E:207, I: 1838, H: 1234, R: 6218, D: 25
+[2020-08-14T11:07:05Z INFO  epirust::epidemiology_simulation] Throughput: 653.0453 iterations/sec; simulation hour 1400 of 10000
+[2020-08-14T11:07:05Z INFO  epirust::listeners::events::counts] S: 223, E:105, I: 1284, H: 1148, R: 7206, D: 34
+[2020-08-14T11:07:05Z INFO  epirust::epidemiology_simulation] Throughput: 661.54364 iterations/sec; simulation hour 1500 of 10000
+[2020-08-14T11:07:05Z INFO  epirust::listeners::events::counts] S: 90, E:54, I: 774, H: 1015, R: 8025, D: 42
+[2020-08-14T11:07:06Z INFO  epirust::epidemiology_simulation] Throughput: 667.92145 iterations/sec; simulation hour 1600 of 10000
+[2020-08-14T11:07:06Z INFO  epirust::listeners::events::counts] S: 45, E:15, I: 431, H: 780, R: 8678, D: 51
+[2020-08-14T11:07:06Z INFO  epirust::epidemiology_simulation] Throughput: 674.057 iterations/sec; simulation hour 1700 of 10000
+[2020-08-14T11:07:06Z INFO  epirust::listeners::events::counts] S: 31, E:4, I: 194, H: 586, R: 9129, D: 56
+[2020-08-14T11:07:06Z INFO  epirust::epidemiology_simulation] Throughput: 679.5848 iterations/sec; simulation hour 1800 of 10000
+[2020-08-14T11:07:06Z INFO  epirust::listeners::events::counts] S: 28, E:0, I: 56, H: 329, R: 9521, D: 66
+[2020-08-14T11:07:06Z INFO  epirust::epidemiology_simulation] Throughput: 684.80035 iterations/sec; simulation hour 1900 of 10000
+[2020-08-14T11:07:06Z INFO  epirust::listeners::events::counts] S: 28, E:0, I: 18, H: 171, R: 9715, D: 68
+[2020-08-14T11:07:06Z INFO  epirust::epidemiology_simulation] Throughput: 688.92053 iterations/sec; simulation hour 2000 of 10000
+[2020-08-14T11:07:06Z INFO  epirust::listeners::events::counts] S: 28, E:0, I: 5, H: 84, R: 9813, D: 70
+[2020-08-14T11:07:06Z INFO  epirust::epidemiology_simulation] Throughput: 691.10754 iterations/sec; simulation hour 2100 of 10000
+[2020-08-14T11:07:06Z INFO  epirust::listeners::events::counts] S: 28, E:0, I: 0, H: 44, R: 9857, D: 71
+[2020-08-14T11:07:06Z INFO  epirust::epidemiology_simulation] Throughput: 693.35626 iterations/sec; simulation hour 2200 of 10000
+[2020-08-14T11:07:06Z INFO  epirust::listeners::events::counts] S: 28, E:0, I: 0, H: 14, R: 9887, D: 71
+[2020-08-14T11:07:07Z INFO  epirust::epidemiology_simulation] Throughput: 695.8625 iterations/sec; simulation hour 2300 of 10000
+[2020-08-14T11:07:07Z INFO  epirust::listeners::events::counts] S: 28, E:0, I: 0, H: 6, R: 9894, D: 72
+[2020-08-14T11:07:07Z INFO  epirust::epidemiology_simulation] Throughput: 698.6621 iterations/sec; simulation hour 2400 of 10000
+[2020-08-14T11:07:07Z INFO  epirust::listeners::events::counts] S: 28, E:0, I: 0, H: 1, R: 9899, D: 72
+[2020-08-14T11:07:07Z INFO  epirust::epidemiology_simulation] Number of iterations: 2423, Total Time taken 3.4664173 seconds
+[2020-08-14T11:07:07Z INFO  epirust::epidemiology_simulation] Iterations/sec: 698.9926
+[2020-08-14T11:07:07Z INFO  epirust] Done
+warning: unused manifest key: profile.release.rustflags
+    Finished release [optimized] target(s) in 0.07s
+     Running `target/release/epirust -c config/default_10K.json`
+[2020-08-14T11:07:07Z INFO  epirust::geography::grid] Hospital capacity 50: 
+[2020-08-14T11:07:07Z INFO  epirust::epidemiology_simulation] Initialization completed in 0.009873337 seconds
+[2020-08-14T11:07:07Z INFO  epirust::listeners::events::counts] S: 9900, E:100, I: 0, H: 0, R: 0, D: 0
+[2020-08-14T11:07:07Z INFO  epirust::epidemiology_simulation] Throughput: 563.3142 iterations/sec; simulation hour 100 of 10000
+[2020-08-14T11:07:07Z INFO  epirust::listeners::events::counts] S: 9900, E:0, I: 100, H: 0, R: 0, D: 0
+[2020-08-14T11:07:07Z INFO  epirust::epidemiology_simulation] Throughput: 560.97406 iterations/sec; simulation hour 200 of 10000
+[2020-08-14T11:07:07Z INFO  epirust::listeners::events::counts] S: 9809, E:83, I: 99, H: 9, R: 0, D: 0
+[2020-08-14T11:07:07Z INFO  epirust::epidemiology_simulation] Throughput: 551.51154 iterations/sec; simulation hour 300 of 10000
+[2020-08-14T11:07:07Z INFO  epirust::listeners::events::counts] S: 9371, E:188, I: 398, H: 16, R: 27, D: 0
+[2020-08-14T11:07:08Z INFO  epirust::epidemiology_simulation] Throughput: 550.39935 iterations/sec; simulation hour 400 of 10000
+[2020-08-14T11:07:08Z INFO  epirust::listeners::events::counts] S: 9009, E:241, I: 613, H: 51, R: 86, D: 0
+[2020-08-14T11:07:08Z INFO  epirust::epidemiology_simulation] Throughput: 553.91864 iterations/sec; simulation hour 500 of 10000
+[2020-08-14T11:07:08Z INFO  epirust::listeners::events::counts] S: 8104, E:455, I: 1197, H: 116, R: 128, D: 0
+[2020-08-14T11:07:08Z INFO  epirust::epidemiology_simulation] Throughput: 560.95874 iterations/sec; simulation hour 600 of 10000
+[2020-08-14T11:07:08Z INFO  epirust::listeners::events::counts] S: 7340, E:376, I: 1588, H: 231, R: 465, D: 0
+[2020-08-14T11:07:08Z INFO  epirust::epidemiology_simulation] Throughput: 570.2974 iterations/sec; simulation hour 700 of 10000
+[2020-08-14T11:07:08Z INFO  epirust::listeners::events::counts] S: 6177, E:606, I: 2051, H: 388, R: 778, D: 0
+[2020-08-14T11:07:08Z INFO  epirust::epidemiology_simulation] Throughput: 579.76276 iterations/sec; simulation hour 800 of 10000
+[2020-08-14T11:07:08Z INFO  epirust::listeners::events::counts] S: 5085, E:503, I: 2449, H: 564, R: 1399, D: 0
+[2020-08-14T11:07:08Z INFO  epirust::epidemiology_simulation] Throughput: 588.1411 iterations/sec; simulation hour 900 of 10000
+[2020-08-14T11:07:08Z INFO  epirust::listeners::events::counts] S: 3622, E:650, I: 2878, H: 784, R: 2066, D: 0
+[2020-08-14T11:07:08Z INFO  epirust::epidemiology_simulation] Throughput: 599.2524 iterations/sec; simulation hour 1000 of 10000
+[2020-08-14T11:07:08Z INFO  epirust::listeners::events::counts] S: 2523, E:450, I: 3150, H: 928, R: 2941, D: 8
+[2020-08-14T11:07:09Z INFO  epirust::epidemiology_simulation] Throughput: 612.2951 iterations/sec; simulation hour 1100 of 10000
+[2020-08-14T11:07:09Z INFO  epirust::listeners::events::counts] S: 1695, E:366, I: 2885, H: 1143, R: 3903, D: 8
+[2020-08-14T11:07:09Z INFO  epirust::epidemiology_simulation] Throughput: 625.62415 iterations/sec; simulation hour 1200 of 10000
+[2020-08-14T11:07:09Z INFO  epirust::listeners::events::counts] S: 1219, E:208, I: 2045, H: 1171, R: 5338, D: 19
+[2020-08-14T11:07:09Z INFO  epirust::epidemiology_simulation] Throughput: 638.027 iterations/sec; simulation hour 1300 of 10000
+[2020-08-14T11:07:09Z INFO  epirust::listeners::events::counts] S: 789, E:198, I: 1465, H: 1155, R: 6368, D: 25
+[2020-08-14T11:07:09Z INFO  epirust::epidemiology_simulation] Throughput: 648.4275 iterations/sec; simulation hour 1400 of 10000
+[2020-08-14T11:07:09Z INFO  epirust::listeners::events::counts] S: 532, E:108, I: 1071, H: 1003, R: 7252, D: 34
+[2020-08-14T11:07:09Z INFO  epirust::epidemiology_simulation] Throughput: 655.729 iterations/sec; simulation hour 1500 of 10000
+[2020-08-14T11:07:09Z INFO  epirust::listeners::events::counts] S: 340, E:60, I: 790, H: 861, R: 7906, D: 43
+[2020-08-14T11:07:09Z INFO  epirust::epidemiology_simulation] Throughput: 662.053 iterations/sec; simulation hour 1600 of 10000
+[2020-08-14T11:07:09Z INFO  epirust::listeners::events::counts] S: 270, E:23, I: 510, H: 623, R: 8526, D: 48
+[2020-08-14T11:07:09Z INFO  epirust::epidemiology_simulation] Throughput: 667.5566 iterations/sec; simulation hour 1700 of 10000
+[2020-08-14T11:07:09Z INFO  epirust::listeners::events::counts] S: 245, E:7, I: 271, H: 442, R: 8985, D: 50
+[2020-08-14T11:07:09Z INFO  epirust::epidemiology_simulation] Throughput: 672.531 iterations/sec; simulation hour 1800 of 10000
+[2020-08-14T11:07:09Z INFO  epirust::listeners::events::counts] S: 228, E:8, I: 110, H: 256, R: 9334, D: 64
+[2020-08-14T11:07:10Z INFO  epirust::epidemiology_simulation] Throughput: 677.4387 iterations/sec; simulation hour 1900 of 10000
+[2020-08-14T11:07:10Z INFO  epirust::listeners::events::counts] S: 210, E:5, I: 57, H: 169, R: 9490, D: 69
+[2020-08-14T11:07:10Z INFO  epirust::epidemiology_simulation] Throughput: 681.34973 iterations/sec; simulation hour 2000 of 10000
+[2020-08-14T11:07:10Z INFO  epirust::listeners::events::counts] S: 199, E:7, I: 37, H: 95, R: 9591, D: 71
+[2020-08-14T11:07:10Z INFO  epirust::epidemiology_simulation] Throughput: 683.36426 iterations/sec; simulation hour 2100 of 10000
+[2020-08-14T11:07:10Z INFO  epirust::listeners::events::counts] S: 190, E:1, I: 34, H: 53, R: 9650, D: 72
+[2020-08-14T11:07:10Z INFO  epirust::epidemiology_simulation] Throughput: 685.4953 iterations/sec; simulation hour 2200 of 10000
+[2020-08-14T11:07:10Z INFO  epirust::listeners::events::counts] S: 160, E:24, I: 28, H: 15, R: 9699, D: 74
+[2020-08-14T11:07:10Z INFO  epirust::epidemiology_simulation] Throughput: 687.90283 iterations/sec; simulation hour 2300 of 10000
+[2020-08-14T11:07:10Z INFO  epirust::listeners::events::counts] S: 157, E:1, I: 42, H: 13, R: 9713, D: 74
+[2020-08-14T11:07:10Z INFO  epirust::epidemiology_simulation] Throughput: 690.62274 iterations/sec; simulation hour 2400 of 10000
+[2020-08-14T11:07:10Z INFO  epirust::listeners::events::counts] S: 155, E:0, I: 29, H: 15, R: 9727, D: 74
+[2020-08-14T11:07:10Z INFO  epirust::epidemiology_simulation] Throughput: 693.5779 iterations/sec; simulation hour 2500 of 10000
+[2020-08-14T11:07:10Z INFO  epirust::listeners::events::counts] S: 155, E:0, I: 15, H: 11, R: 9745, D: 74
+[2020-08-14T11:07:11Z INFO  epirust::epidemiology_simulation] Throughput: 695.5373 iterations/sec; simulation hour 2600 of 10000
+[2020-08-14T11:07:11Z INFO  epirust::listeners::events::counts] S: 155, E:0, I: 2, H: 10, R: 9759, D: 74
+[2020-08-14T11:07:11Z INFO  epirust::epidemiology_simulation] Throughput: 696.59296 iterations/sec; simulation hour 2700 of 10000
+[2020-08-14T11:07:11Z INFO  epirust::listeners::events::counts] S: 155, E:0, I: 0, H: 9, R: 9762, D: 74
+[2020-08-14T11:07:11Z INFO  epirust::epidemiology_simulation] Throughput: 697.81946 iterations/sec; simulation hour 2800 of 10000
+[2020-08-14T11:07:11Z INFO  epirust::listeners::events::counts] S: 155, E:0, I: 0, H: 7, R: 9764, D: 74
+[2020-08-14T11:07:11Z INFO  epirust::epidemiology_simulation] Throughput: 699.3464 iterations/sec; simulation hour 2900 of 10000
+[2020-08-14T11:07:11Z INFO  epirust::listeners::events::counts] S: 155, E:0, I: 0, H: 1, R: 9770, D: 74
+[2020-08-14T11:07:11Z INFO  epirust::epidemiology_simulation] Throughput: 701.1756 iterations/sec; simulation hour 3000 of 10000
+[2020-08-14T11:07:11Z INFO  epirust::listeners::events::counts] S: 155, E:0, I: 0, H: 1, R: 9770, D: 74
+[2020-08-14T11:07:11Z INFO  epirust::epidemiology_simulation] Number of iterations: 3023, Total Time taken 4.310183 seconds
+[2020-08-14T11:07:11Z INFO  epirust::epidemiology_simulation] Iterations/sec: 701.3623
+[2020-08-14T11:07:11Z INFO  epirust] Done
+warning: unused manifest key: profile.release.rustflags
+    Finished release [optimized] target(s) in 0.07s
+     Running `target/release/epirust -c config/default_10K.json`
+[2020-08-14T11:07:11Z INFO  epirust::geography::grid] Hospital capacity 50: 
+[2020-08-14T11:07:11Z INFO  epirust::epidemiology_simulation] Initialization completed in 0.015235983 seconds
+[2020-08-14T11:07:11Z INFO  epirust::listeners::events::counts] S: 9900, E:100, I: 0, H: 0, R: 0, D: 0
+[2020-08-14T11:07:11Z INFO  epirust::epidemiology_simulation] Throughput: 563.026 iterations/sec; simulation hour 100 of 10000
+[2020-08-14T11:07:11Z INFO  epirust::listeners::events::counts] S: 9900, E:0, I: 100, H: 0, R: 0, D: 0
+[2020-08-14T11:07:12Z INFO  epirust::epidemiology_simulation] Throughput: 559.5498 iterations/sec; simulation hour 200 of 10000
+[2020-08-14T11:07:12Z INFO  epirust::listeners::events::counts] S: 9776, E:122, I: 96, H: 6, R: 0, D: 0
+[2020-08-14T11:07:12Z INFO  epirust::epidemiology_simulation] Throughput: 550.101 iterations/sec; simulation hour 300 of 10000
+[2020-08-14T11:07:12Z INFO  epirust::listeners::events::counts] S: 9246, E:208, I: 492, H: 19, R: 35, D: 0
+[2020-08-14T11:07:12Z INFO  epirust::epidemiology_simulation] Throughput: 549.37195 iterations/sec; simulation hour 400 of 10000
+[2020-08-14T11:07:12Z INFO  epirust::listeners::events::counts] S: 8753, E:362, I: 719, H: 84, R: 82, D: 0
+[2020-08-14T11:07:12Z INFO  epirust::epidemiology_simulation] Throughput: 554.1706 iterations/sec; simulation hour 500 of 10000
+[2020-08-14T11:07:12Z INFO  epirust::listeners::events::counts] S: 7777, E:421, I: 1480, H: 166, R: 156, D: 0
+[2020-08-14T11:07:12Z INFO  epirust::epidemiology_simulation] Throughput: 562.4358 iterations/sec; simulation hour 600 of 10000
+[2020-08-14T11:07:12Z INFO  epirust::listeners::events::counts] S: 7074, E:404, I: 1646, H: 330, R: 546, D: 0
+[2020-08-14T11:07:12Z INFO  epirust::epidemiology_simulation] Throughput: 572.32996 iterations/sec; simulation hour 700 of 10000
+[2020-08-14T11:07:12Z INFO  epirust::listeners::events::counts] S: 5895, E:604, I: 2099, H: 472, R: 929, D: 1
+[2020-08-14T11:07:13Z INFO  epirust::epidemiology_simulation] Throughput: 581.8716 iterations/sec; simulation hour 800 of 10000
+[2020-08-14T11:07:13Z INFO  epirust::listeners::events::counts] S: 4932, E:477, I: 2325, H: 654, R: 1611, D: 1
+[2020-08-14T11:07:13Z INFO  epirust::epidemiology_simulation] Throughput: 590.1213 iterations/sec; simulation hour 900 of 10000
+[2020-08-14T11:07:13Z INFO  epirust::listeners::events::counts] S: 3313, E:712, I: 2862, H: 827, R: 2283, D: 3
+[2020-08-14T11:07:13Z INFO  epirust::epidemiology_simulation] Throughput: 601.47266 iterations/sec; simulation hour 1000 of 10000
+[2020-08-14T11:07:13Z INFO  epirust::listeners::events::counts] S: 2148, E:518, I: 3190, H: 980, R: 3157, D: 7
+[2020-08-14T11:07:13Z INFO  epirust::epidemiology_simulation] Throughput: 615.1386 iterations/sec; simulation hour 1100 of 10000
+[2020-08-14T11:07:13Z INFO  epirust::listeners::events::counts] S: 1269, E:409, I: 3051, H: 1154, R: 4109, D: 8
+[2020-08-14T11:07:13Z INFO  epirust::epidemiology_simulation] Throughput: 629.40186 iterations/sec; simulation hour 1200 of 10000
+[2020-08-14T11:07:13Z INFO  epirust::listeners::events::counts] S: 793, E:202, I: 2175, H: 1213, R: 5603, D: 14
+[2020-08-14T11:07:13Z INFO  epirust::epidemiology_simulation] Throughput: 642.55743 iterations/sec; simulation hour 1300 of 10000
+[2020-08-14T11:07:13Z INFO  epirust::listeners::events::counts] S: 481, E:137, I: 1504, H: 1193, R: 6663, D: 22
+[2020-08-14T11:07:13Z INFO  epirust::epidemiology_simulation] Throughput: 653.236 iterations/sec; simulation hour 1400 of 10000
+[2020-08-14T11:07:13Z INFO  epirust::listeners::events::counts] S: 294, E:84, I: 915, H: 1036, R: 7644, D: 27
+[2020-08-14T11:07:13Z INFO  epirust::epidemiology_simulation] Throughput: 660.4063 iterations/sec; simulation hour 1500 of 10000
+[2020-08-14T11:07:13Z INFO  epirust::listeners::events::counts] S: 184, E:61, I: 544, H: 877, R: 8302, D: 32
+[2020-08-14T11:07:14Z INFO  epirust::epidemiology_simulation] Throughput: 666.30664 iterations/sec; simulation hour 1600 of 10000
+[2020-08-14T11:07:14Z INFO  epirust::listeners::events::counts] S: 144, E:5, I: 346, H: 582, R: 8879, D: 44
+[2020-08-14T11:07:14Z INFO  epirust::epidemiology_simulation] Throughput: 671.47363 iterations/sec; simulation hour 1700 of 10000
+[2020-08-14T11:07:14Z INFO  epirust::listeners::events::counts] S: 124, E:14, I: 174, H: 377, R: 9261, D: 50
+[2020-08-14T11:07:14Z INFO  epirust::epidemiology_simulation] Throughput: 674.8763 iterations/sec; simulation hour 1800 of 10000
+[2020-08-14T11:07:14Z INFO  epirust::listeners::events::counts] S: 115, E:3, I: 72, H: 200, R: 9555, D: 55
+[2020-08-14T11:07:14Z INFO  epirust::epidemiology_simulation] Throughput: 679.87964 iterations/sec; simulation hour 1900 of 10000
+[2020-08-14T11:07:14Z INFO  epirust::listeners::events::counts] S: 114, E:1, I: 25, H: 112, R: 9690, D: 58
+[2020-08-14T11:07:14Z INFO  epirust::epidemiology_simulation] Throughput: 683.89526 iterations/sec; simulation hour 2000 of 10000
+[2020-08-14T11:07:14Z INFO  epirust::listeners::events::counts] S: 112, E:0, I: 17, H: 64, R: 9747, D: 60
+[2020-08-14T11:07:14Z INFO  epirust::epidemiology_simulation] Throughput: 686.0618 iterations/sec; simulation hour 2100 of 10000
+[2020-08-14T11:07:14Z INFO  epirust::listeners::events::counts] S: 112, E:0, I: 5, H: 25, R: 9797, D: 61
+[2020-08-14T11:07:14Z INFO  epirust::epidemiology_simulation] Throughput: 688.2878 iterations/sec; simulation hour 2200 of 10000
+[2020-08-14T11:07:14Z INFO  epirust::listeners::events::counts] S: 112, E:0, I: 2, H: 7, R: 9818, D: 61
+[2020-08-14T11:07:15Z INFO  epirust::epidemiology_simulation] Throughput: 690.76337 iterations/sec; simulation hour 2300 of 10000
+[2020-08-14T11:07:15Z INFO  epirust::listeners::events::counts] S: 112, E:0, I: 0, H: 2, R: 9825, D: 61
+[2020-08-14T11:07:15Z INFO  epirust::epidemiology_simulation] Throughput: 693.5379 iterations/sec; simulation hour 2400 of 10000
+[2020-08-14T11:07:15Z INFO  epirust::listeners::events::counts] S: 112, E:0, I: 0, H: 1, R: 9826, D: 61
+[2020-08-14T11:07:15Z INFO  epirust::epidemiology_simulation] Number of iterations: 2423, Total Time taken 3.492005 seconds
+[2020-08-14T11:07:15Z INFO  epirust::epidemiology_simulation] Iterations/sec: 693.87067
+[2020-08-14T11:07:15Z INFO  epirust] Done
+warning: unused manifest key: profile.release.rustflags
+    Finished release [optimized] target(s) in 0.07s
+     Running `target/release/epirust -c config/default_10K.json`
+[2020-08-14T11:07:15Z INFO  epirust::geography::grid] Hospital capacity 50: 
+[2020-08-14T11:07:15Z INFO  epirust::epidemiology_simulation] Initialization completed in 0.012793034 seconds
+[2020-08-14T11:07:15Z INFO  epirust::listeners::events::counts] S: 9900, E:100, I: 0, H: 0, R: 0, D: 0
+[2020-08-14T11:07:15Z INFO  epirust::epidemiology_simulation] Throughput: 564.7687 iterations/sec; simulation hour 100 of 10000
+[2020-08-14T11:07:15Z INFO  epirust::listeners::events::counts] S: 9900, E:0, I: 100, H: 0, R: 0, D: 0
+[2020-08-14T11:07:15Z INFO  epirust::epidemiology_simulation] Throughput: 561.66785 iterations/sec; simulation hour 200 of 10000
+[2020-08-14T11:07:15Z INFO  epirust::listeners::events::counts] S: 9747, E:144, I: 98, H: 11, R: 0, D: 0
+[2020-08-14T11:07:15Z INFO  epirust::epidemiology_simulation] Throughput: 552.30396 iterations/sec; simulation hour 300 of 10000
+[2020-08-14T11:07:15Z INFO  epirust::listeners::events::counts] S: 9175, E:230, I: 548, H: 18, R: 29, D: 0
+[2020-08-14T11:07:16Z INFO  epirust::epidemiology_simulation] Throughput: 550.1865 iterations/sec; simulation hour 400 of 10000
+[2020-08-14T11:07:16Z INFO  epirust::listeners::events::counts] S: 8538, E:433, I: 865, H: 82, R: 82, D: 0
+[2020-08-14T11:07:16Z INFO  epirust::epidemiology_simulation] Throughput: 555.8221 iterations/sec; simulation hour 500 of 10000
+[2020-08-14T11:07:16Z INFO  epirust::listeners::events::counts] S: 7528, E:434, I: 1703, H: 174, R: 161, D: 0
+[2020-08-14T11:07:16Z INFO  epirust::epidemiology_simulation] Throughput: 565.31647 iterations/sec; simulation hour 600 of 10000
+[2020-08-14T11:07:16Z INFO  epirust::listeners::events::counts] S: 6626, E:504, I: 1892, H: 373, R: 605, D: 0
+[2020-08-14T11:07:16Z INFO  epirust::epidemiology_simulation] Throughput: 576.74036 iterations/sec; simulation hour 700 of 10000
+[2020-08-14T11:07:16Z INFO  epirust::listeners::events::counts] S: 5488, E:573, I: 2288, H: 572, R: 1078, D: 1
+[2020-08-14T11:07:16Z INFO  epirust::epidemiology_simulation] Throughput: 588.0903 iterations/sec; simulation hour 800 of 10000
+[2020-08-14T11:07:16Z INFO  epirust::listeners::events::counts] S: 4300, E:632, I: 2450, H: 794, R: 1823, D: 1
+[2020-08-14T11:07:16Z INFO  epirust::epidemiology_simulation] Throughput: 598.15283 iterations/sec; simulation hour 900 of 10000
+[2020-08-14T11:07:16Z INFO  epirust::listeners::events::counts] S: 2887, E:607, I: 2953, H: 986, R: 2564, D: 3
+[2020-08-14T11:07:16Z INFO  epirust::epidemiology_simulation] Throughput: 610.91516 iterations/sec; simulation hour 1000 of 10000
+[2020-08-14T11:07:16Z INFO  epirust::listeners::events::counts] S: 1770, E:465, I: 3113, H: 1149, R: 3497, D: 6
+[2020-08-14T11:07:17Z INFO  epirust::epidemiology_simulation] Throughput: 625.48425 iterations/sec; simulation hour 1100 of 10000
+[2020-08-14T11:07:17Z INFO  epirust::listeners::events::counts] S: 974, E:363, I: 2874, H: 1259, R: 4520, D: 10
+[2020-08-14T11:07:17Z INFO  epirust::epidemiology_simulation] Throughput: 640.1198 iterations/sec; simulation hour 1200 of 10000
+[2020-08-14T11:07:17Z INFO  epirust::listeners::events::counts] S: 539, E:168, I: 2021, H: 1239, R: 6016, D: 17
+[2020-08-14T11:07:17Z INFO  epirust::epidemiology_simulation] Throughput: 653.4943 iterations/sec; simulation hour 1300 of 10000
+[2020-08-14T11:07:17Z INFO  epirust::listeners::events::counts] S: 319, E:91, I: 1284, H: 1193, R: 7092, D: 21
+[2020-08-14T11:07:17Z INFO  epirust::epidemiology_simulation] Throughput: 664.15045 iterations/sec; simulation hour 1400 of 10000
+[2020-08-14T11:07:17Z INFO  epirust::listeners::events::counts] S: 185, E:53, I: 744, H: 1025, R: 7964, D: 29
+[2020-08-14T11:07:17Z INFO  epirust::epidemiology_simulation] Throughput: 671.02704 iterations/sec; simulation hour 1500 of 10000
+[2020-08-14T11:07:17Z INFO  epirust::listeners::events::counts] S: 140, E:16, I: 383, H: 787, R: 8640, D: 34
+[2020-08-14T11:07:17Z INFO  epirust::epidemiology_simulation] Throughput: 676.5642 iterations/sec; simulation hour 1600 of 10000
+[2020-08-14T11:07:17Z INFO  epirust::listeners::events::counts] S: 106, E:12, I: 202, H: 567, R: 9075, D: 38
+[2020-08-14T11:07:17Z INFO  epirust::epidemiology_simulation] Throughput: 681.4882 iterations/sec; simulation hour 1700 of 10000
+[2020-08-14T11:07:17Z INFO  epirust::listeners::events::counts] S: 84, E:15, I: 88, H: 362, R: 9397, D: 54
+[2020-08-14T11:07:17Z INFO  epirust::epidemiology_simulation] Throughput: 686.1534 iterations/sec; simulation hour 1800 of 10000
+[2020-08-14T11:07:17Z INFO  epirust::listeners::events::counts] S: 71, E:1, I: 59, H: 159, R: 9651, D: 59
+[2020-08-14T11:07:18Z INFO  epirust::epidemiology_simulation] Throughput: 690.7538 iterations/sec; simulation hour 1900 of 10000
+[2020-08-14T11:07:18Z INFO  epirust::listeners::events::counts] S: 71, E:0, I: 36, H: 92, R: 9741, D: 60
+[2020-08-14T11:07:18Z INFO  epirust::epidemiology_simulation] Throughput: 694.3763 iterations/sec; simulation hour 2000 of 10000
+[2020-08-14T11:07:18Z INFO  epirust::listeners::events::counts] S: 71, E:0, I: 15, H: 49, R: 9802, D: 63
+[2020-08-14T11:07:18Z INFO  epirust::epidemiology_simulation] Throughput: 696.1019 iterations/sec; simulation hour 2100 of 10000
+[2020-08-14T11:07:18Z INFO  epirust::listeners::events::counts] S: 70, E:0, I: 1, H: 25, R: 9840, D: 64
+[2020-08-14T11:07:18Z INFO  epirust::epidemiology_simulation] Throughput: 698.01404 iterations/sec; simulation hour 2200 of 10000
+[2020-08-14T11:07:18Z INFO  epirust::listeners::events::counts] S: 70, E:0, I: 1, H: 14, R: 9851, D: 64
+[2020-08-14T11:07:18Z INFO  epirust::epidemiology_simulation] Throughput: 700.21045 iterations/sec; simulation hour 2300 of 10000
+[2020-08-14T11:07:18Z INFO  epirust::listeners::events::counts] S: 70, E:0, I: 1, H: 5, R: 9859, D: 65
+[2020-08-14T11:07:18Z INFO  epirust::epidemiology_simulation] Throughput: 702.725 iterations/sec; simulation hour 2400 of 10000
+[2020-08-14T11:07:18Z INFO  epirust::listeners::events::counts] S: 70, E:0, I: 0, H: 1, R: 9863, D: 66
+[2020-08-14T11:07:18Z INFO  epirust::epidemiology_simulation] Number of iterations: 2471, Total Time taken 3.5101762 seconds
+[2020-08-14T11:07:18Z INFO  epirust::epidemiology_simulation] Iterations/sec: 703.95325
+[2020-08-14T11:07:18Z INFO  epirust] Done
+warning: unused manifest key: profile.release.rustflags
+    Finished release [optimized] target(s) in 0.07s
+     Running `target/release/epirust -c config/default_10K.json`
+[2020-08-14T11:07:18Z INFO  epirust::geography::grid] Hospital capacity 50: 
+[2020-08-14T11:07:18Z INFO  epirust::epidemiology_simulation] Initialization completed in 0.009919489 seconds
+[2020-08-14T11:07:18Z INFO  epirust::listeners::events::counts] S: 9900, E:100, I: 0, H: 0, R: 0, D: 0
+[2020-08-14T11:07:19Z INFO  epirust::epidemiology_simulation] Throughput: 565.31177 iterations/sec; simulation hour 100 of 10000
+[2020-08-14T11:07:19Z INFO  epirust::listeners::events::counts] S: 9900, E:0, I: 100, H: 0, R: 0, D: 0
+[2020-08-14T11:07:19Z INFO  epirust::epidemiology_simulation] Throughput: 562.8679 iterations/sec; simulation hour 200 of 10000
+[2020-08-14T11:07:19Z INFO  epirust::listeners::events::counts] S: 9774, E:122, I: 95, H: 9, R: 0, D: 0
+[2020-08-14T11:07:19Z INFO  epirust::epidemiology_simulation] Throughput: 553.737 iterations/sec; simulation hour 300 of 10000
+[2020-08-14T11:07:19Z INFO  epirust::listeners::events::counts] S: 9232, E:208, I: 506, H: 22, R: 32, D: 0
+[2020-08-14T11:07:19Z INFO  epirust::epidemiology_simulation] Throughput: 553.55194 iterations/sec; simulation hour 400 of 10000
+[2020-08-14T11:07:19Z INFO  epirust::listeners::events::counts] S: 8740, E:331, I: 780, H: 66, R: 83, D: 0
+[2020-08-14T11:07:19Z INFO  epirust::epidemiology_simulation] Throughput: 558.3407 iterations/sec; simulation hour 500 of 10000
+[2020-08-14T11:07:19Z INFO  epirust::listeners::events::counts] S: 7795, E:409, I: 1499, H: 148, R: 149, D: 0
+[2020-08-14T11:07:20Z INFO  epirust::epidemiology_simulation] Throughput: 566.8479 iterations/sec; simulation hour 600 of 10000
+[2020-08-14T11:07:20Z INFO  epirust::listeners::events::counts] S: 7048, E:394, I: 1701, H: 296, R: 561, D: 0
+[2020-08-14T11:07:20Z INFO  epirust::epidemiology_simulation] Throughput: 577.1226 iterations/sec; simulation hour 700 of 10000
+[2020-08-14T11:07:20Z INFO  epirust::listeners::events::counts] S: 5927, E:574, I: 2076, H: 476, R: 946, D: 1
+[2020-08-14T11:07:20Z INFO  epirust::epidemiology_simulation] Throughput: 586.997 iterations/sec; simulation hour 800 of 10000
+[2020-08-14T11:07:20Z INFO  epirust::listeners::events::counts] S: 4800, E:546, I: 2374, H: 658, R: 1621, D: 1
+[2020-08-14T11:07:20Z INFO  epirust::epidemiology_simulation] Throughput: 595.6384 iterations/sec; simulation hour 900 of 10000
+[2020-08-14T11:07:20Z INFO  epirust::listeners::events::counts] S: 3333, E:647, I: 2886, H: 839, R: 2293, D: 2
+[2020-08-14T11:07:20Z INFO  epirust::epidemiology_simulation] Throughput: 607.18243 iterations/sec; simulation hour 1000 of 10000
+[2020-08-14T11:07:20Z INFO  epirust::listeners::events::counts] S: 2332, E:412, I: 3069, H: 1009, R: 3174, D: 4
+[2020-08-14T11:07:20Z INFO  epirust::epidemiology_simulation] Throughput: 620.59436 iterations/sec; simulation hour 1100 of 10000
+[2020-08-14T11:07:20Z INFO  epirust::listeners::events::counts] S: 1489, E:397, I: 2802, H: 1179, R: 4127, D: 6
+[2020-08-14T11:07:20Z INFO  epirust::epidemiology_simulation] Throughput: 634.11053 iterations/sec; simulation hour 1200 of 10000
+[2020-08-14T11:07:20Z INFO  epirust::listeners::events::counts] S: 1027, E:194, I: 2005, H: 1179, R: 5581, D: 14
+[2020-08-14T11:07:20Z INFO  epirust::epidemiology_simulation] Throughput: 646.73364 iterations/sec; simulation hour 1300 of 10000
+[2020-08-14T11:07:20Z INFO  epirust::listeners::events::counts] S: 656, E:183, I: 1414, H: 1152, R: 6577, D: 18
+[2020-08-14T11:07:21Z INFO  epirust::epidemiology_simulation] Throughput: 656.3695 iterations/sec; simulation hour 1400 of 10000
+[2020-08-14T11:07:21Z INFO  epirust::listeners::events::counts] S: 444, E:72, I: 1004, H: 975, R: 7481, D: 24
+[2020-08-14T11:07:21Z INFO  epirust::epidemiology_simulation] Throughput: 663.48535 iterations/sec; simulation hour 1500 of 10000
+[2020-08-14T11:07:21Z INFO  epirust::listeners::events::counts] S: 240, E:77, I: 672, H: 842, R: 8137, D: 32
+[2020-08-14T11:07:21Z INFO  epirust::epidemiology_simulation] Throughput: 669.5116 iterations/sec; simulation hour 1600 of 10000
+[2020-08-14T11:07:21Z INFO  epirust::listeners::events::counts] S: 207, E:14, I: 424, H: 581, R: 8730, D: 44
+[2020-08-14T11:07:21Z INFO  epirust::epidemiology_simulation] Throughput: 674.94507 iterations/sec; simulation hour 1700 of 10000
+[2020-08-14T11:07:21Z INFO  epirust::listeners::events::counts] S: 166, E:24, I: 227, H: 424, R: 9112, D: 47
+[2020-08-14T11:07:21Z INFO  epirust::epidemiology_simulation] Throughput: 680.06946 iterations/sec; simulation hour 1800 of 10000
+[2020-08-14T11:07:21Z INFO  epirust::listeners::events::counts] S: 152, E:5, I: 101, H: 249, R: 9442, D: 51
+[2020-08-14T11:07:21Z INFO  epirust::epidemiology_simulation] Throughput: 684.9862 iterations/sec; simulation hour 1900 of 10000
+[2020-08-14T11:07:21Z INFO  epirust::listeners::events::counts] S: 140, E:5, I: 61, H: 185, R: 9553, D: 56
+[2020-08-14T11:07:21Z INFO  epirust::epidemiology_simulation] Throughput: 688.91705 iterations/sec; simulation hour 2000 of 10000
+[2020-08-14T11:07:21Z INFO  epirust::listeners::events::counts] S: 140, E:0, I: 32, H: 96, R: 9674, D: 58
+[2020-08-14T11:07:21Z INFO  epirust::epidemiology_simulation] Throughput: 690.9302 iterations/sec; simulation hour 2100 of 10000
+[2020-08-14T11:07:21Z INFO  epirust::listeners::events::counts] S: 139, E:1, I: 12, H: 55, R: 9733, D: 60
+[2020-08-14T11:07:22Z INFO  epirust::epidemiology_simulation] Throughput: 693.0008 iterations/sec; simulation hour 2200 of 10000
+[2020-08-14T11:07:22Z INFO  epirust::listeners::events::counts] S: 139, E:0, I: 3, H: 16, R: 9780, D: 62
+[2020-08-14T11:07:22Z INFO  epirust::epidemiology_simulation] Throughput: 695.32153 iterations/sec; simulation hour 2300 of 10000
+[2020-08-14T11:07:22Z INFO  epirust::listeners::events::counts] S: 139, E:0, I: 1, H: 9, R: 9789, D: 62
+[2020-08-14T11:07:22Z INFO  epirust::epidemiology_simulation] Throughput: 697.8995 iterations/sec; simulation hour 2400 of 10000
+[2020-08-14T11:07:22Z INFO  epirust::listeners::events::counts] S: 139, E:0, I: 0, H: 4, R: 9794, D: 63
+[2020-08-14T11:07:22Z INFO  epirust::epidemiology_simulation] Throughput: 700.7714 iterations/sec; simulation hour 2500 of 10000
+[2020-08-14T11:07:22Z INFO  epirust::listeners::events::counts] S: 139, E:0, I: 0, H: 1, R: 9797, D: 63
+[2020-08-14T11:07:22Z INFO  epirust::epidemiology_simulation] Number of iterations: 2567, Total Time taken 3.6611848 seconds
+[2020-08-14T11:07:22Z INFO  epirust::epidemiology_simulation] Iterations/sec: 701.13916
+[2020-08-14T11:07:22Z INFO  epirust] Done
+------------------------------------------------------------------------
+Benchmark #1: RUST_LOG=info RUSTFLAGS='-C target-cpu=native -C target-feature=+sse -C target-feature=+sse2 -C target-feature=+sse3 -C target-feature=+sse4.1 -C target-feature=+sse4.2' cargo run --release -- -c config/default_10K.json >> 10K.stdio 2>&1
+  Time (mean ± σ):      3.841 s ±  0.330 s    [User: 3.797 s, System: 0.031 s]
+  Range (min … max):    3.432 s …  4.417 s    10 runs
+
