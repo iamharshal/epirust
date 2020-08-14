@@ -1,8 +1,9 @@
 #!/bin/bash
 
-for POP in 10K 50K 100K
+for POP in 100K #10K 50K 100K
 do
     #hyperfine --warmup 3 "RUSTFLAGS='-C target-cpu=native -C target-feature=+sse -C target-feature=+sse2 -C target-feature=+sse3 -C target-feature=+sse4.1 -C target-feature=+sse4.2' cargo run --release -- -c config/default_${POP}.json"
-    hyperfine --warmup 3 "cargo run --release -- -c config/default_${POP}.json"
+    #hyperfine --warmup 3 "cargo run --release -- -c config/default_${POP}.json"
+    perf stat cargo run --release -- -c config/default_${POP}.json
 done
 
