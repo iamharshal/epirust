@@ -5,7 +5,7 @@ Hyperfine has executed these benchmarks.
 
 ## Without kernels
 
-Without native CPU optimizations
+* Without native CPU optimizations
 ```
 Benchmark #1: cargo run --release -- -c config/default_10K.json
   Time (mean ± σ):      5.937 s ±  3.181 s    [User: 5.889 s, System: 0.030 s]
@@ -155,4 +155,4 @@ Performance counter stats for 'cargo run --release -- -c config/default_100K.jso
 
 ## Summary
 
-Refactored kernel version takes 94 seconds on aveage versus the non-kernel version.
+Refactored and CPU-native optimized kernel version takes 94 seconds on aveage versus the non-kernel version taking 127 seconds.
